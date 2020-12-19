@@ -254,7 +254,7 @@ padding-top: 5px;
          About
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="https://secureito.com/patronsmessage.php">Patron's Message</a>
+          <a class="dropdown-item" href="https://secureito.com/patronmessage.php">Patron's Message</a>
           <a class="dropdown-item" href="https://secureito.com/principalmessage.php">Principal's Message</a>
                       <a class="dropdown-item" href="https://secureito.com/Trusteemessage.php">Chairman's Message</a>
 
