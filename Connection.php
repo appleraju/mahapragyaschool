@@ -1,9 +1,9 @@
 <?php
 
 $servername = "localhost";
-$dbUsername = "secureit_admin";
-$dbPassword = "Admin123*";
-$dbName = "secureit_pnewconnect";
+$dbUsername = "root";
+$dbPassword = "";
+$dbName = "pnewconnect1";
 
 $conn = mysqli_connect($servername, $dbUsername, $dbPassword, $dbName);
 
