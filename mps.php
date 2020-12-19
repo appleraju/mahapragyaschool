@@ -318,7 +318,7 @@ padding-top: 5px;
         $(this).toggleClass('menu-opened');
         var mainmenu = $(this).next('ul');
         if (mainmenu.hasClass('open')) {
-          mainmenu.slideToggle().removeClass('open');sadasfsdf
+          mainmenu.slideToggle().removeClass('open');
         } else {
           mainmenu.slideToggle().addClass('open');
           if (settings.format === "dropdown") {
