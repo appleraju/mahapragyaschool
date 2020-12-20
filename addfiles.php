@@ -766,19 +766,14 @@ padding-top: 5px;
   </nav>
 <div class="container" style="margin-top: 200px;">
 <div class="form-box form" style="margin-top: 50px;margin-left: 10vw;background-color: #f2f2f2;">
-  <h1 style="text-align: center;">Add new notice</h1>
+  <h1 style="text-align: center;">Upload Notice Document</h1>
   <p style="text-align: center;">Fill in all the details</p>
-  <form action="addednotice.php" method="POST">
-    <div class="form-group">
-      <label for="title" style="font-size: 20px; font-weight: normal;margin-bottom: 10px;text-align: left">Title</label>
-      <input class="form-control" id="title" type="text" name="title" placeholder="Enter Title">
-      <label for="link" style="font-size: 20px; font-weight: normal;margin-bottom: 10px;text-align: left!important" >file name</label>
-      <input class="form-control" id="link" type="text" name="link" placeholder="Enter exact file name as uploaded" >
-    </div>
-
-         <button type="submit" class="btn btn-primary" name="submit">Submit</button>
-
-  </form>
+ <form action="uploadedfiles.php" method="post" enctype="multipart/form-data">
+    Select File to Upload:
+    <input type="file" name="file">
+    <br>
+    <input type="submit" name="submit" value="Upload">
+</form>
 </div>
 </div>
 

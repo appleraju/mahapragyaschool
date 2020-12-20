@@ -528,7 +528,7 @@ while ($item = mysqli_fetch_array($query1))
 {
     
    
-    echo '<a href="' . $item['link'] . ' " style="font-size:20px;font-weight:bold;text-align:left;margin-bottom:30px;">' . $item['title'] . '</div>';
+    echo '<a href="https://secureito.com/uploadedfiles/'.$item['link'].'"  style="font-size:20px;font-weight:bold;text-align:left;margin-bottom:30px;">' . $item['title'] . '</a>';
       
     echo '<hr style="color:black">';
 
