@@ -633,8 +633,8 @@ while ($item = mysqli_fetch_array($query2))
   <div class="card">
     <div class="card-body">
 <h5 class="card-title" style="text-align: center;">      <i class="fa fa-calendar" style="text-align: center;font-size: 50px;margin-top: 20px;" aria-hidden="true"></i>
-Friday Clubs</h5>
-      <p class="card-text">Learn all about the extra curricular activities students can participate in through school clubs.</p>
+Facalities</h5>
+      <p class="card-text">Learn all about the facalities students can use in school & make the most of it.</p>
       <a href="facalities.php">Read More|</a>
     </div>
   </div>
@@ -650,7 +650,7 @@ The school prides itself on its academic rigour, flexibility, and student-centri
     <div class="card-body">
       <h5 class="card-title" style="text-align: center;"><i class="fa fa-flask" style="text-align: center;font-size: 50px;margin-top: 20px;" aria-hidden="true"></i>Innovations</h5>
       <p class="card-text">The school is a buzzing laboratory of experimentation at all levels. Our innovations are born out of our needs and shaped by our passion for embracing change</p>
-      <a href="facalities.php">Read More|</a>
+      <a href="achievements.php">Read More|</a>
     </div>
   </div>
   <div class="card">
