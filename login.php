@@ -239,461 +239,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         background-color: #F9F9F9;
     }
     </style>
-    <style>
-    nav {
-        position: relative;
-        width: 100%;
-        height: 60px;
-        max-height: 800px;
-        z-index: 10;
-        background-color: #6bb6ff;
-
-
-    }
-
-    #cssmenu,
-    #cssmenu ul,
-    #cssmenu ul li,
-    #cssmenu ul li a,
-    #cssmenu #head-mobile {
-        border: 0;
-        list-style: none;
-        line-height: 1;
-        display: block;
-        position: relative;
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        box-sizing: border-box
-    }
-
-    #cssmenu:after,
-    #cssmenu>ul:after {
-        content: ".";
-        display: block;
-        clear: both;
-        visibility: hidden;
-        line-height: 0;
-        height: 0
-    }
-
-    #cssmenu #head-mobile {
-        display: none
-    }
-
-    #cssmenu {
-        font-family: lato;
-        background: #6bb6ff
-    }
-
-    #cssmenu>ul>li {
-        float: left
-    }
-
-    #cssmenu>ul>li>a {
-        text-decoration: none;
-        color: black;
-        font-family: lato;
-        font-size: 14px;
-        padding: 22px 25px;
-
-        background-color: #6bb6ff;
-
-        letter-spacing: 1px;
-        font-weight: 100;
-    }
-
-    #cssmenu>ul>li:hover>a,
-    #cssmenu ul li.active a {
-        color: #8a8a8e;
-        -webkit-transition: all 0.3s ease-in-out;
-        -moz-transition: all 0.3s ease-in-out;
-        -o-transition: all 0.3s ease-in-out;
-        background-color: #6bb6ff;
-
-        -ms-transition: all 0.3s ease-in-out;
-        transition: all 0.3s ease-in-out;
-    }
-
-    #cssmenu>ul>li:hover,
-    #cssmenu ul li.active:hover,
-    #cssmenu ul li.active,
-    #cssmenu ul li.has-sub.active:hover {
-        color: #8a8a8e;
-        -webkit-transition: all 0.3s ease-in-out;
-        -moz-transition: all 0.3s ease-in-out;
-        -o-transition: all 0.3s ease-in-out;
-        -ms-transition: all 0.3s ease-in-out;
-        transition: all 0.3s ease-in-out;
-    }
-
-    #cssmenu>ul>li.has-sub>a {
-        padding-right: 30px
-    }
-
-    #cssmenu>ul>li.has-sub>a:after {
-        position: absolute;
-        top: 27px;
-        right: 11px;
-        width: 8px;
-        height: 2px;
-        display: block;
-        background-color: #6bb6ff;
-        content: ''
-    }
-
-    #cssmenu>ul>li.has-sub>a:before {
-        position: absolute;
-        top: 24px;
-        right: 14px;
-        display: block;
-        width: 2px;
-        height: 8px;
-
-        content: '';
-        -webkit-transition: all .25s ease;
-        -ms-transition: all .25s ease;
-        transition: all .25s ease
-    }
-
-    #cssmenu>ul>li.has-sub:hover>a:before {
-        top: 28px;
-        height: 0;
-        left: 0px;
-    }
-
-    #cssmenu ul ul {
-        position: absolute;
-        left: -9999px
-    }
-
-    #cssmenu ul ul li {
-        height: 0;
-        -webkit-transition: all .25s ease;
-        -ms-transition: all .25s ease;
-        background: #6bb6ff;
-        transition: all .25s ease
-    }
-
-    #cssmenu ul ul li:hover {}
-
-    #cssmenu li:hover>ul {
-        left: auto
-    }
-
-    #cssmenu li:hover>ul>li {
-        height: 35px
-    }
-
-    #cssmenu ul ul ul {
-        margin-left: 100%;
-        top: 0
-    }
-
-    #cssmenu ul ul li a {
-        border-bottom: 1px solid rgba(150, 150, 150, 0.15);
-        padding: 11px 15px;
-        width: 170px;
-        font-size: 15px;
-        text-decoration: none;
-        color: #ddd;
-        font-weight: 400;
-    }
-
-    #cssmenu ul ul li:last-child>a,
-    #cssmenu ul ul li.last-item>a {
-        border-bottom: 0
-    }
-
-    #cssmenu ul ul li:hover>a,
-    #cssmenu ul ul li a:hover {
-        color: #fff
-    }
-
-    #cssmenu ul ul li.has-sub>a:after {
-        position: absolute;
-        top: 16px;
-        right: 11px;
-        width: 8px;
-        height: 2px;
-        display: block;
-        background: #ddd;
-        content: ''
-    }
-
-    #cssmenu ul ul li.has-sub>a:before {
-        position: absolute;
-        top: 13px;
-        right: 14px;
-        display: block;
-        width: 2px;
-        height: 8px;
-        background: #ddd;
-        content: '';
-        -webkit-transition: all .25s ease;
-        -ms-transition: all .25s ease;
-        transition: all .25s ease
-    }
-
-    #cssmenu ul ul>li.has-sub:hover>a:before {
-        top: 17px;
-        height: 0
-    }
-
-    #cssmenu ul ul li.has-sub:hover,
-    #cssmenu ul li.has-sub ul li.has-sub ul li:hover {
-        background: #363636;
-    }
-
-    #cssmenu ul ul ul li.active a {
-        border-left: 1px solid #333
-    }
-
-    #cssmenu>ul>li.has-sub>ul>li.active>a,
-    #cssmenu>ul ul>li.has-sub>ul>li.active>a {
-        border-top: 1px solid #333
-    }
-
-    @media screen and (max-width:700px) {
-        .logo {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 46px;
-            text-align: center;
-            padding: 10px 0 0 0;
-            float: none;
-        }
-
-        .logo2 {
-            display: none;
-        }
-
-        nav {
-            width: 100%;
-        }
-
-        #cssmenu {
-            width: 100%;
-        }
-
-        #cssmenu ul {
-            width: 100%;
-            display: none;
-        }
-
-        #cssmenu ul li {
-            width: 100%;
-            border-top: 1px solid #444;
-        }
-
-        #cssmenu ul li:hover {
-            background: #363636;
-        }
-
-        #cssmenu ul ul li,
-        #cssmenu li:hover>ul>li {
-            height: auto;
-        }
-
-        #cssmenu ul li a,
-        #cssmenu ul ul li a {
-            width: 100%;
-            border-bottom: 0;
-        }
-
-        #cssmenu>ul>li {
-            float: none;
-        }
-
-        #cssmenu ul ul li a {
-            padding-left: 25px;
-        }
-
-        #cssmenu ul ul li {
-            background: #333 !important;
-        }
-
-        #cssmenu ul ul li:hover {
-            background: #363636 !important
-        }
-
-        #cssmenu ul ul ul li a {
-            padding-left: 35px;
-        }
-
-        #cssmenu ul ul li a {
-            color: #ddd;
-            background: none;
-        }
-
-        #cssmenu ul ul li:hover>a,
-        #cssmenu ul ul li.active>a {
-            color: #fff;
-        }
-
-        #cssmenu ul ul,
-        #cssmenu ul ul ul {
-            position: relative;
-            right: 0;
-            width: 100%;
-            margin: 0;
-            text-align: left;
-        }
-
-        #cssmenu>ul>li.has-sub>a:after,
-        #cssmenu>ul>li.has-sub>a:before,
-        #cssmenu ul ul>li.has-sub>a:after,
-        #cssmenu ul ul>li.has-sub>a:before {
-            display: none;
-        }
-
-        #cssmenu #head-mobile {
-            display: block;
-            padding: 23px;
-            color: #ddd;
-            font-size: 12px;
-            font-weight: 700;
-        }
-
-        .button {
-            width: 50px;
-            height: 50px;
-            position: absolute;
-            left: 20;
-            top: 0;
-            cursor: pointer;
-            z-index: 12399994;
-            content: '';
-
-
-        }
-
-        .button:after {
-            position: absolute;
-            top: 22px;
-            right: 20px;
-            display: block;
-            height: 20px;
-            width: 40px;
-            border-top: 4px solid #dddddd;
-            border-bottom: 4px solid #dddddd;
-            content: '';
-        }
-
-        .button:before {
-            -webkit-transition: all .3s ease;
-            -ms-transition: all .3s ease;
-            transition: all .3s ease;
-            position: absolute;
-            top: 16px;
-            right: 20px;
-            display: block;
-            height: 2px;
-            width: 20px;
-            background: #ddd;
-            content: '';
-        }
-
-        .button.menu-opened:after {
-            -webkit-transition: all .3s ease;
-            -ms-transition: all .3s ease;
-            transition: all .3s ease;
-            top: 23px;
-            border: 0;
-            height: 2px;
-            width: 19px;
-            background: #fff;
-            -webkit-transform: rotate(45deg);
-            -moz-transform: rotate(45deg);
-            -ms-transform: rotate(45deg);
-            -o-transform: rotate(45deg);
-            transform: rotate(45deg);
-        }
-
-        .button.menu-opened:before {
-            top: 23px;
-            background: #fff;
-            width: 19px;
-            -webkit-transform: rotate(-45deg);
-            -moz-transform: rotate(-45deg);
-            -ms-transform: rotate(-45deg);
-            -o-transform: rotate(-45deg);
-            transform: rotate(-45deg);
-        }
-
-        #cssmenu .submenu-button {
-            position: absolute;
-            z-index: 99;
-
-            top: 0;
-            display: block;
-            border-left: 1px solid #444;
-            height: 57px;
-            width: 46px;
-            cursor: pointer;
-        }
-
-        #cssmenu .submenu-button.submenu-opened {
-            background: #31333b;
-        }
-
-        #cssmenu ul ul .submenu-button {
-            height: 34px;
-            width: 34px;
-        }
-
-        #cssmenu .submenu-button:after {
-            position: absolute;
-            top: 28px;
-            right: 19px;
-            width: 8px;
-            height: 2px;
-            display: block;
-            background: #ddd;
-            content: '';
-        }
-
-        #cssmenu ul ul .submenu-button:after {
-            top: 15px;
-            right: 13px;
-        }
-
-        #cssmenu .submenu-button.submenu-opened:after {
-            background: #fff;
-        }
-
-        #cssmenu .submenu-button:before {
-            position: absolute;
-            top: 25px;
-            right: 22px;
-            display: block;
-            width: 2px;
-            height: 8px;
-            background: #ddd;
-            content: '';
-        }
-
-        #cssmenu ul ul .submenu-button:before {
-            top: 12px;
-            right: 16px;
-        }
-
-        #cssmenu .submenu-button.submenu-opened:before {
-            display: none;
-        }
-
-        #cssmenu ul ul ul li.active a {
-            border-left: none;
-        }
-
-        #cssmenu>ul>li.has-sub>ul>li.active>a,
-        #cssmenu>ul ul>li.has-sub>ul>li.active>a {
-            border-top: none;
-        }
-    }
-    </style>
-
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
@@ -796,56 +342,82 @@ padding-top: 5px;
 
 
   //]]></script>
-    <nav  id='cssmenu' style="float:left;position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;">
-    <div id="head-mobile"></div>
-    <div  class="button"></div>
-    <ul  >
-      <li ><a href='https://secureito.com/mps.php'>HOME</a></li>
-      <li><a href='#'>ABOUT</a>
-        <ul>
-          <li><a href='https://secureito.com/patronmessage.php'>Patron's Message</a></li>
-          <li><a href='https://secureito.com/principalmessage.php'>Principal's Message</a></li>
-          <li><a href='https://secureito.com/Trusteemessage.php'>Trustee's Message</a></li>
-          <li><a href='https://secureito.com/ourvision.php'>Our Vision</a></li>
-        </ul>
+   
+<nav class="navbar navbar-expand-lg navbar-light sticky-top" style="width:100%;background-color:#63B8FF;font-size:18px;white-space: nowrap;">
+  <a class="navbar-brand" href="#"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse"  id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto"  >
+      <li class="nav-item active"  style="margin-right:3%;" >
+        <a class="nav-link" href="https://secureito.com/mps.php">Home</a>
+      </li>
+ 
+      <li class="nav-item active dropdown" style="margin-right:3%;">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         About
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="/patronmessage.php">Patron's Message</a>
+          <a class="dropdown-item" href="https://secureito.com/principalmessage.php">Principal's Message</a>
+                      <a class="dropdown-item" href="https://secureito.com/Trusteemessage.php">Chairman's Message</a>
+
+          <a class="dropdown-item" href="https://secureito.com/ourvision.php" >Our Vision</a>
+        </div>
+      </li>
+       <li class="nav-item dropdown active" style="margin-right:3%;">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Our Team
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="https://secureito.com/stafflist.php">Staff List</a>
+          <a class="dropdown-item" href="https://secureito.com/ptalist.php">PTA list</a>
+
+        </div>
+      </li>
+       <li class="nav-item dropdown active" style="margin-right:3%;">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         School
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="https://secureito.com/cirriculum.php">Curriculum</a>
+          <a class="dropdown-item" href="https://secureito.com/facalities.php">Facalities</a>
+                      <a class="dropdown-item" href="https://secureito.com/achievements.php">Achievements</a>
+
+        </div>
+      </li>
+      <li class="nav-item dropdown active" style="margin-right:3%;">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Admissions
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="https://secureito.com/faq.php">Admission's FAQ</a>
+          <a class="dropdown-item" href="https://secureito.com/rules.php">Rules & Regulations</a>
 
 
-
+        </div>
       </li>
 
-         <li><a href='#'>OUR TEAM</a>
-        <ul>
-          <li><a href='https://secureito.com/stafflist.php'>Staff List</a></li>
-          <li><a href='https://secureito.com/ptalist.php'>PTA Memembers</a></li>
-
-        </ul>
-
-      <li><a href='#'>SCHOOL</a>
-        <ul>
-          <li><a href='https://secureito.com/cirriculum.php'>Curriculum</a></li>
-          <li><a href='https://secureito.com/achievements.php'>Achievements</a></li>
-          <li><a href='https://secureito.com/facalities.php'>Facalities</a></li>
-
-        </ul>
+            <li class="nav-item active"  style="margin-right:3%;" >
+        <a class="nav-link" href="https://secureito.com/gallery.php">Gallery</a>
       </li>
-      <li><a href='#'>ADMISSIONS</a>
-          <ul>
-          <li><a href='https://secureito.com/faq.php'>Admission FAQS</a></li>
-          <li><a href='https://secureito.com/rules.php'>Rules & Regulations</a></li>
-
-        </ul>
+      <li class="nav-item active"  style="margin-right:3%;" >
+        <a class="nav-link" href="https://secureito.com/schoolenquiryform.php">Admission Enquiry</a>
+      </li>
+      <li class="nav-item active"  style="margin-right:3%;" >
+        <a class="nav-link" href="https://secureito.com/contact.html">Reach Us</a>
+      </li>
+      <li class="nav-item active"  style="margin-right:3%;" >
+        <a class="nav-link" href="https://secureito.com/login.php">Staff Login</a>
       </li>
 
-      <li><a href='https://secureito.com/gallery.php'>GALLERY</a></li>
-
-      <li><a href='https://secureito.com/schoolenquiryform.php'>ADMISSION ENQUIRY</a></li>
-      <li><a href='https://secureito.com/contact.html'>CONTACT</a></li>
-       <li><a href='https://secureito.com/login.php'>STAFF LOGIN</a></li>
+    
     </ul>
-  </nav>
-
+ 
+  </div>
+</nav>
     <div >
 
     <div class="form" style="margin:auto;margin-top: 100px;margin-left: 40%">

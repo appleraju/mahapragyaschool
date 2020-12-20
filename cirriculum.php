@@ -270,57 +270,81 @@ padding-top: 5px;
 
 
   //]]></script>
+<nav class="navbar navbar-expand-lg navbar-light sticky-top" style="width:100%;background-color:#63B8FF;font-size:18px;white-space: nowrap;">
+  <a class="navbar-brand" href="#"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-  <nav  id='cssmenu' style="float:left;position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;">
-    <div id="head-mobile"></div>
-    <div  class="button"></div>
-    <ul  >
-      <li ><a href='https://secureito.com/mps.php'>HOME</a></li>
-      <li><a href='#'>ABOUT</a>
-        <ul>
-          <li><a href='https://secureito.com/patronmessage.php'>Patron's Message</a></li>
-          <li><a href='https://secureito.com/principalmessage.php'>Principal's Message</a></li>
-          <li><a href='https://secureito.com/Trusteemessage.php'>Trustee's Message</a></li>
-          <li><a href='https://secureito.com/ourvision.php'>Our Vision</a></li>
-        </ul>
+  <div class="collapse navbar-collapse"  id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto"  >
+      <li class="nav-item active"  style="margin-right:3%;" >
+        <a class="nav-link" href="https://secureito.com/mps.php">Home</a>
+      </li>
+ 
+      <li class="nav-item active dropdown" style="margin-right:3%;">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         About
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="/patronmessage.php">Patron's Message</a>
+          <a class="dropdown-item" href="https://secureito.com/principalmessage.php">Principal's Message</a>
+                      <a class="dropdown-item" href="https://secureito.com/Trusteemessage.php">Chairman's Message</a>
+
+          <a class="dropdown-item" href="https://secureito.com/ourvision.php" >Our Vision</a>
+        </div>
+      </li>
+       <li class="nav-item dropdown active" style="margin-right:3%;">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Our Team
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="https://secureito.com/stafflist.php">Staff List</a>
+          <a class="dropdown-item" href="https://secureito.com/ptalist.php">PTA list</a>
+
+        </div>
+      </li>
+       <li class="nav-item dropdown active" style="margin-right:3%;">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         School
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="https://secureito.com/cirriculum.php">Curriculum</a>
+          <a class="dropdown-item" href="https://secureito.com/facalities.php">Facalities</a>
+                      <a class="dropdown-item" href="https://secureito.com/achievements.php">Achievements</a>
+
+        </div>
+      </li>
+      <li class="nav-item dropdown active" style="margin-right:3%;">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Admissions
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="https://secureito.com/faq.php">Admission's FAQ</a>
+          <a class="dropdown-item" href="https://secureito.com/rules.php">Rules & Regulations</a>
 
 
-
+        </div>
       </li>
 
-         <li><a href='#'>OUR TEAM</a>
-        <ul>
-          <li><a href='https://secureito.com/stafflist.php'>Staff List</a></li>
-          <li><a href='https://secureito.com/ptalist.php'>PTA Memembers</a></li>
-
-        </ul>
-
-      <li><a href='#'>SCHOOL</a>
-        <ul>
-          <li><a href='https://secureito.com/cirriculum.php'>Curriculum</a></li>
-          <li><a href='https://secureito.com/achievements.php'>Achievements</a></li>
-          <li><a href='https://secureito.com/facalities.php'>Facalities</a></li>
-
-        </ul>
+            <li class="nav-item active"  style="margin-right:3%;" >
+        <a class="nav-link" href="https://secureito.com/gallery.php">Gallery</a>
       </li>
-      <li><a href='#'>ADMISSIONS</a>
-          <ul>
-          <li><a href='https://secureito.com/faq.php'>Admission FAQS</a></li>
-          <li><a href='https://secureito.com/rules.php'>Rules & Regulations</a></li>
-
-        </ul>
+      <li class="nav-item active"  style="margin-right:3%;" >
+        <a class="nav-link" href="https://secureito.com/schoolenquiryform.php">Admission Enquiry</a>
+      </li>
+      <li class="nav-item active"  style="margin-right:3%;" >
+        <a class="nav-link" href="https://secureito.com/contact.html">Reach Us</a>
+      </li>
+      <li class="nav-item active"  style="margin-right:3%;" >
+        <a class="nav-link" href="https://secureito.com/login.php">Staff Login</a>
       </li>
 
-      <li><a href='https://secureito.com/gallery.php'>GALLERY</a></li>
-
-      <li><a href='https://secureito.com/schoolenquiryform.php'>ADMISSION ENQUIRY</a></li>
-      <li><a href='https://secureito.com/contact.html'>CONTACT</a></li>
-       <li><a href='https://secureito.com/login.php'>STAFF LOGIN</a></li>
+    
     </ul>
-  </nav>
-
+ 
+  </div>
+</nav>
 
 
 
