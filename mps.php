@@ -246,7 +246,7 @@ padding-top: 5px;
   <div class="collapse navbar-collapse"  id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto"  >
       <li class="nav-item active"  style="margin-right:3%;" >
-        <a class="nav-link" href="https://secureito.com/mps.php">Home</a>
+        <a class="nav-link" href="mps.php">Home</a>
       </li>
  
       <li class="nav-item active dropdown" style="margin-right:3%;">
@@ -258,7 +258,7 @@ padding-top: 5px;
           <a class="dropdown-item" href="principalmessage.php">Principal's Message</a>
                       <a class="dropdown-item" href="Trusteemessage.php">Chairman's Message</a>
 
-          <a class="dropdown-item" href="https://secureito.com/ourvision.php" >Our Vision</a>
+          <a class="dropdown-item" href="ourvision.php" >Our Vision</a>
         </div>
       </li>
        <li class="nav-item dropdown active" style="margin-right:3%;">
@@ -266,8 +266,8 @@ padding-top: 5px;
          Our Team
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="https://secureito.com/stafflist.php">Staff List</a>
-          <a class="dropdown-item" href="https://secureito.com/ptalist.php">PTA list</a>
+          <a class="dropdown-item" href="stafflist.php">Staff List</a>
+          <a class="dropdown-item" href="ptalist.php">PTA list</a>
 
         </div>
       </li>
@@ -276,9 +276,9 @@ padding-top: 5px;
          School
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="https://secureito.com/cirriculum.php">Curriculum</a>
-          <a class="dropdown-item" href="https://secureito.com/facalities.php">Facalities</a>
-                      <a class="dropdown-item" href="https://secureito.com/achievements.php">Achievements</a>
+          <a class="dropdown-item" href="cirriculum.php">Curriculum</a>
+          <a class="dropdown-item" href="facalities.php">Facalities</a>
+                      <a class="dropdown-item" href="achievements.php">Achievements</a>
 
         </div>
       </li>
@@ -287,24 +287,24 @@ padding-top: 5px;
          Admissions
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="https://secureito.com/faq.php">Admission's FAQ</a>
-          <a class="dropdown-item" href="https://secureito.com/rules.php">Rules & Regulations</a>
+          <a class="dropdown-item" href="faq.php">Admission's FAQ</a>
+          <a class="dropdown-item" href="rules.php">Rules & Regulations</a>
 
 
         </div>
       </li>
 
             <li class="nav-item active"  style="margin-right:3%;" >
-        <a class="nav-link" href="https://secureito.com/gallery.php">Gallery</a>
+        <a class="nav-link" href="gallery.php">Gallery</a>
       </li>
       <li class="nav-item active"  style="margin-right:3%;" >
-        <a class="nav-link" href="https://secureito.com/schoolenquiryform.php">Admission Enquiry</a>
+        <a class="nav-link" href="schoolenquiryform.php">Admission Enquiry</a>
       </li>
       <li class="nav-item active"  style="margin-right:3%;" >
-        <a class="nav-link" href="https://secureito.com/contact.html">Reach Us</a>
+        <a class="nav-link" href="contact.html">Reach Us</a>
       </li>
       <li class="nav-item active"  style="margin-right:3%;" >
-        <a class="nav-link" href="https://secureito.com/login.php">Staff Login</a>
+        <a class="nav-link" href="login.php">Staff Login</a>
       </li>
 
     
@@ -384,45 +384,45 @@ padding-top: 5px;
     </ol>
     <div class="carousel-inner" role="listbox">
       <!-- Slide One - Set the background image for this slide in the line below -->
-      <div class="carousel-item active" style="background-image: url('https://secureito.com/i_images/2.jpg ')">
+      <div class="carousel-item active" style="background-image: url('i_images/2.jpg ')">
         <div class="carousel-caption d-none d-md-block">
           
         </div>
       </div>
       <!-- Slide Two - Set the background image for this slide in the line below -->
-      <div class="carousel-item" style="background-image: url('https://secureito.com/i_images/2.jpg ')">
+      <div class="carousel-item" style="background-image: url('i_images/2.jpg ')">
         <div class="carousel-caption d-none d-md-block">
           </div>
       </div>
-      <div class="carousel-item" style="background-image: url('https://secureito.com/i_images/3.jpg ')">
+      <div class="carousel-item" style="background-image: url('i_images/3.jpg ')">
         <div class="carousel-caption d-none d-md-block">
           </div>
       </div>
-      <div class="carousel-item" style="background-image: url('https://secureito.com/i_images/4.jpg ')">
+      <div class="carousel-item" style="background-image: url('i_images/4.jpg ')">
         <div class="carousel-caption d-none d-md-block">
           </div>
       </div>
-      <div class="carousel-item" style="background-image: url('https://secureito.com/i_images/5.jpg ')">
+      <div class="carousel-item" style="background-image: url('i_images/5.jpg ')">
         <div class="carousel-caption d-none d-md-block">
           </div>
       </div>
-      <div class="carousel-item" style="background-image: url('https://secureito.com/i_images/6.jpg ')">
+      <div class="carousel-item" style="background-image: url('i_images/6.jpg ')">
         <div class="carousel-caption d-none d-md-block">
           </div>
       </div>
-        <div class="carousel-item" style="background-image: url('https://secureito.com/i_images/7.jpg ')">
+        <div class="carousel-item" style="background-image: url('i_images/7.jpg ')">
         <div class="carousel-caption d-none d-md-block">
           </div>
       </div>
-        <div class="carousel-item" style="background-image: url('https://secureito.com/i_images/8.jpg ')">
+        <div class="carousel-item" style="background-image: url('i_images/8.jpg ')">
         <div class="carousel-caption d-none d-md-block">
           </div>
       </div>
-        <div class="carousel-item" style="background-image: url('https://secureito.com/i_images/9.jpg ')">
+        <div class="carousel-item" style="background-image: url('i_images/9.jpg ')">
         <div class="carousel-caption d-none d-md-block">
           </div>
       </div>
-        <div class="carousel-item" style="background-image: url('https://secureito.com/i_images/10.jpg ')">
+        <div class="carousel-item" style="background-image: url('i_images/10.jpg ')">
         <div class="carousel-caption d-none d-md-block">
           </div>
       </div>
@@ -460,7 +460,7 @@ This is a sample scrolling text that has scrolls texts to left. <span>&#8226;</s
 
 Creating to the nursery, primary and secondary segments, the school follows the syllabi laid by Central Board of Secondary Education (CBSE).
 Based upon Acharya Mahapragya’s educational philosophy, the school aspires to be a trendsetter by promoting excellence in education. Yoga and Science of Living (Jeevan Vigyan) form an integral part of the curriculum.</font> </p>
-    <a href="https://secureito.com/ourvision.php"><button type="button" class="btn btn-primary" >Read more</button></a>
+    <a href="ourvision.php"><button type="button" class="btn btn-primary" >Read more</button></a>
   </div>
 
 
@@ -482,7 +482,7 @@ Based upon Acharya Mahapragya’s educational philosophy, the school aspires to 
    
 
   <div class="card col-sm" style="border:none;width:280px;height:620px; margin-top:50px;">
-  <img class="card-img-top" src="https://secureito.com/i_images/chairman.jpg" style="height:200px;" alt="Card image">
+  <img class="card-img-top" src="i_images/chairman.jpg" style="height:200px;" alt="Card image">
   <div class="card-body">
     <h4 class="card-title">Trustee Message</h4>
     <p class="card-text" style="font-weight: 200; font-family: 'Lato';color: gray;">Dear Parents and students,
@@ -491,12 +491,12 @@ I am glad that you have a taken the right decision of admitting your child in MP
 
 The school aims at imparting knowledge that would be relevant in life always for the student. It adopts a blend of both- contemporary and traditional outlook to create a positive atmosphere of learning for your child.
 </p>
-    <a href="https://secureito.com/Trusteemessage.php" class="btn btn-primary">Read More</a>
+    <a href="Trusteemessage.php" class="btn btn-primary">Read More</a>
   </div>
 </div>
 
   <div class="card col-sm" style="border:none;width:280px;height:620px;margin-top:50px; ">
-  <img class="card-img-top" src="https://secureito.com/i_images/patron.jpg" style="height:200px;" alt="Card image">
+  <img class="card-img-top" src="i_images/patron.jpg" style="height:200px;" alt="Card image">
   <div class="card-body">
     <h4 class="card-title">Patron's Message</h4>
     <p class="card-text"style="font-weight: 200; font-family: 'Lato';color: gray;">Dear Parents and Students, 
@@ -504,17 +504,17 @@ The school aims at imparting knowledge that would be relevant in life always for
 Every child is expected to go to school for about 14 years in his/her life. During this period, what he has to learn as a human being is to develop two of in-built mechanisms of the human brain,  in the right direction at the right place (School) and with the right people (teachers.The  two mechanisms in his brain are Neo-cortex and limbic system.
 
 </p>
-    <a href="https://secureito.com/patronmessage.php" class="btn btn-primary">Read More</a>
+    <a href="patronmessage.php" class="btn btn-primary">Read More</a>
   </div>
 </div>
 
 
   <div class="card col-sm" style="width:280px;height:620px;margin-top:50px;border:none;">
-  <img class="card-img-top" src="https://secureito.com/i_images/princi.jpg" style="height:200px;" alt="Card image">
+  <img class="card-img-top" src="i_images/princi.jpg" style="height:200px;" alt="Card image">
   <div class="card-body">
     <h4 class="card-title">Principal Message</h4>
     <p class="card-text" style="font-weight: 200; font-family: 'Lato';color: gray;">Mahapragya Public School (MPS) is the best co-educational English medium School in Mumbai, which admits children of all caste, community, religion and race without any distinction.Mahapragya Public School (MPS) is the best co-educational English medium School in Mumbai, which admits children of all caste, community, religion and race without any</p>
-    <a href="https://secureito.com/principalmessage.php" class="btn btn-primary">Read more</a>
+    <a href="principalmessage.php" class="btn btn-primary">Read more</a>
   </div>
 </div>
 
@@ -537,7 +537,7 @@ while ($item = mysqli_fetch_array($query1))
 {
     
    
-    echo '<a href="https://secureito.com/uploadedfiles/'.$item['link'].'"  style="font-size:20px;font-weight:bold;text-align:left;margin-bottom:30px;">' . $item['title'] . '</a>';
+    echo '<a href="uploadedfiles/'.$item['link'].'"  style="font-size:20px;font-weight:bold;text-align:left;margin-bottom:30px;">' . $item['title'] . '</a>';
       
     echo '<hr style="color:black">';
 
@@ -564,34 +564,34 @@ while ($item = mysqli_fetch_array($query1))
    
  
   <div class="card" style="border:none;width:280px;height:620px;margin: auto; margin-top:50px;margin-bottom: 50px;">
-  <img class="card-img-top" src="https://secureito.com/i_images/chairman.jpg" style="width:280px;height:200px;" alt="Card image">
+  <img class="card-img-top" src="i_images/chairman.jpg" style="width:280px;height:200px;" alt="Card image">
   <div class="card-body">
     <h4 class="card-title">Trustee's Message</h4>
     <p class="card-text" style="font-weight: 200; font-family: 'Lato';color: gray;">I am glad that you have a taken the right decision of admitting your child in MPS- smart choice indeed.The school aims at imparting knowledge that would be relevant in life always for the student. It adopts a blend of both- contemporary and traditional outlook to create a positive atmosphere of learning for your child.
 </p>
-    <a href="https://secureito.com/Trusteemessage.php" class="btn btn-primary">Read More</a>
+    <a href="Trusteemessage.php" class="btn btn-primary">Read More</a>
   </div>
 </div>
 
   
 
   <div class="card" style="border:none;width:280px;height:620px;margin: auto; margin-bottom: 50px;">
-  <img class="card-img-top" src="https://secureito.com/i_images/patron.jpg" style="width:280px;height:200px;" alt="Card image">
+  <img class="card-img-top" src="i_images/patron.jpg" style="width:280px;height:200px;" alt="Card image">
   <div class="card-body">
     <h4 class="card-title">Patron's Message</h4>
     <p class="card-text" style="font-weight: 200; font-family: 'Lato';color: gray;">Mahapragya Public School (MPS) is the best co-educational English medium School in Mumbai, which admits children of all caste, community, religion and race without any distinction.Mahapragya Public School (MPS) is the best co-educational English medium School in Mumbai, which admits children of all caste, community, religion and race 
 </p>
-    <a href="https://secureito.com/patronmessage.php" class="btn btn-primary">Read More</a>
+    <a href="patronmessage.php" class="btn btn-primary">Read More</a>
   </div>
 </div>
 
 
   <div class="card" style="width:280px;height:620px;margin-top:50px;margin: auto;border:none;margin-bottom: 50px;">
-  <img class="card-img-top" src="https://secureito.com/i_images/princi.jpg" style="width:280px;height:200px;" alt="Card image">
+  <img class="card-img-top" src="i_images/princi.jpg" style="width:280px;height:200px;" alt="Card image">
   <div class="card-body">
     <h4 class="card-title">Principal Message</h4>
     <p class="card-text" style="font-weight: 200; font-family: 'Lato';color: gray;">Mahapragya Public School (MPS) is the best co-educational English medium School in Mumbai, which admits children of all caste, community, religion and race without any distinction.Mahapragya Public School (MPS) is the best co-educational English medium School in Mumbai, which admits children of all caste, community, religion and race without any</p>
-    <a href="https://secureito.com/principalmessage.php" class="btn btn-primary">Read more</a>
+    <a href="principalmessage.php" class="btn btn-primary">Read more</a>
   </div>
 </div>
 
@@ -635,7 +635,7 @@ while ($item = mysqli_fetch_array($query2))
 <h5 class="card-title" style="text-align: center;">      <i class="fa fa-calendar" style="text-align: center;font-size: 50px;margin-top: 20px;" aria-hidden="true"></i>
 Friday Clubs</h5>
       <p class="card-text">Learn all about the extra curricular activities students can participate in through school clubs.</p>
-      <a href="https://secureito.com/facalities.php">Read More|</a>
+      <a href="facalities.php">Read More|</a>
     </div>
   </div>
   <div class="card">
@@ -643,21 +643,21 @@ Friday Clubs</h5>
       <h5 class="card-title" style="text-align: center;"><i class="fa fa-graduation-cap" style="text-align: center;font-size: 50px;margin-top: 20px;" aria-hidden="true"></i>Academics</h5>
       <p class="card-text">
 The school prides itself on its academic rigour, flexibility, and student-centric approach. CBSE allows the child to grow into a wholesome, skilled, competent individual</p>
-      <a href="https://secureito.com/cirriculum.php">Read More|</a>
+      <a href="cirriculum.php">Read More|</a>
     </div>
   </div>
   <div class="card">
     <div class="card-body">
       <h5 class="card-title" style="text-align: center;"><i class="fa fa-flask" style="text-align: center;font-size: 50px;margin-top: 20px;" aria-hidden="true"></i>Innovations</h5>
       <p class="card-text">The school is a buzzing laboratory of experimentation at all levels. Our innovations are born out of our needs and shaped by our passion for embracing change</p>
-      <a href="https://secureito.com/facalities.php">Read More|</a>
+      <a href="facalities.php">Read More|</a>
     </div>
   </div>
   <div class="card">
     <div class="card-body">
       <h5 class="card-title" style="text-align: center;"><i class="fa fa-question" style="text-align: center;font-size: 50px;margin-top: 20px;" aria-hidden="true"></i>Admission Faqs</h5>
       <p class="card-text">Have a question about admissions to MahaPragya Public School? Our FAQs section has all the answers and more to all your queries.</p>
-        <a href="https://secureito.com/faq.php">Read More|</a>
+        <a href="faq.php">Read More|</a>
     </div>
   </div>
 </div>
@@ -786,26 +786,26 @@ The school prides itself on its academic rigour, flexibility, and student-centri
 
  <div class="owl-carousel owl-theme">
 
-    <div class="item" ><h4 style="position: absolute;font-size: 30px;bottom:0;left:30%;color:white;font-weight: normal;color: white'">Entrance</h4><img src="https://secureito.com/i_images/entrance.jpg" style="width:100%;height: 100%;"></div>
-     <div class="item" ><h4 style="position: absolute;font-size: 30px;bottom:10px;left:30%;color:white;font-weight: normal;">Reception</h4><img src="https://secureito.com/i_images/reception.jpg" style="width:100%;height: 100%;"></div>
-    <div class="item" style="display:block;"><h4 style="position: absolute;font-size: 30px;bottom:0;left:30%;color:white;font-weight: normal;">Play Area</h4><img src="https://secureito.com/i_images/playarea.jpg" style="width:100%;height: 100%;"></div>
-     <div class="item" style="display:block;"><h4 style="position: absolute;font-size: 30px;bottom:0;left:30%;color:white;font-weight: normal;">Staircase</h4><img src="https://secureito.com/i_images/staircase.jpg" style="width:100%;height: 100%;"></div>
-     <div class="item" style="display:block;"><h4 style="position: absolute;font-size: 30px;bottom:0;left:30%;color:white;font-weight: normal;">Skating ring</h4><img src="https://secureito.com/i_images/10.jpg" style="width:100%;height: 100%;"></div>
-     <div class="item" style="display:block;"><h4 style="position: absolute;font-size: 30px;bottom:0;left:30%;color:white;font-weight: normal;">Passage</h4><img src="https://secureito.com/i_images/passage.jpg" style="width:100%;height: 100%;"></div>
-     <div class="item" style="display:block;"><h4 style="position: absolute;font-size: 30px;bottom:0;left:30%;color:white;font-weight: normal;">Auditorium</h4><img src="https://secureito.com/i_images/auditorium.jpg" style="width:100%;height: 100%;"></div>
-        <div class="item" style="display:block;"><h4 style="position: absolute;font-size: 30px;bottom:0;left:30%;color:white;font-weight: normal;">Classrooms</h4><img src="https://secureito.com/i_images/classroom.jpg" style="width:100%;height: 100%;"></div>
-           <div class="item" style="display:block;"><h4 style="position: absolute;font-size: 30px;bottom:0;left:30%;color:white;font-weight: normal;">Classrooms</h4><img src="https://secureito.com/i_images/classroom1.jpg" style="width:100%;height: 100%;"></div>
-              <div class="item" style="display:block;"><h4 style="position: absolute;font-size: 30px;bottom:0;left:30%;color:white;font-weight: normal;">Principal Room</h4><img src="https://secureito.com/i_images/principalroom.jpg" style="width:100%;height: 100%;"></div>
+    <div class="item" ><h4 style="position: absolute;font-size: 30px;bottom:0;left:30%;color:white;font-weight: normal;color: white'">Entrance</h4><img src="i_images/entrance.jpg" style="width:100%;height: 100%;"></div>
+     <div class="item" ><h4 style="position: absolute;font-size: 30px;bottom:10px;left:30%;color:white;font-weight: normal;">Reception</h4><img src="i_images/reception.jpg" style="width:100%;height: 100%;"></div>
+    <div class="item" style="display:block;"><h4 style="position: absolute;font-size: 30px;bottom:0;left:30%;color:white;font-weight: normal;">Play Area</h4><img src="i_images/playarea.jpg" style="width:100%;height: 100%;"></div>
+     <div class="item" style="display:block;"><h4 style="position: absolute;font-size: 30px;bottom:0;left:30%;color:white;font-weight: normal;">Staircase</h4><img src="i_images/staircase.jpg" style="width:100%;height: 100%;"></div>
+     <div class="item" style="display:block;"><h4 style="position: absolute;font-size: 30px;bottom:0;left:30%;color:white;font-weight: normal;">Skating ring</h4><img src="i_images/10.jpg" style="width:100%;height: 100%;"></div>
+     <div class="item" style="display:block;"><h4 style="position: absolute;font-size: 30px;bottom:0;left:30%;color:white;font-weight: normal;">Passage</h4><img src="i_images/passage.jpg" style="width:100%;height: 100%;"></div>
+     <div class="item" style="display:block;"><h4 style="position: absolute;font-size: 30px;bottom:0;left:30%;color:white;font-weight: normal;">Auditorium</h4><img src="i_images/auditorium.jpg" style="width:100%;height: 100%;"></div>
+        <div class="item" style="display:block;"><h4 style="position: absolute;font-size: 30px;bottom:0;left:30%;color:white;font-weight: normal;">Classrooms</h4><img src="i_images/classroom.jpg" style="width:100%;height: 100%;"></div>
+           <div class="item" style="display:block;"><h4 style="position: absolute;font-size: 30px;bottom:0;left:30%;color:white;font-weight: normal;">Classrooms</h4><img src="i_images/classroom1.jpg" style="width:100%;height: 100%;"></div>
+              <div class="item" style="display:block;"><h4 style="position: absolute;font-size: 30px;bottom:0;left:30%;color:white;font-weight: normal;">Principal Room</h4><img src="i_images/principalroom.jpg" style="width:100%;height: 100%;"></div>
 
-                 <div class="item" style="display:block;"><h4 style="position: absolute;font-size: 30px;bottom:0;left:30%;color:white;font-weight: normal;">Sciencelab</h4><img src="https://secureito.com/i_images/sciencelab.jpg" style="width:100%;height: 100%;"></div>
-                    <div class="item" style="display:block;"><h4 style="position: absolute;font-size: 30px;bottom:0;left:30%;color:white;font-weight: normal;">Dance Hall</h4><img src="https://secureito.com/i_images/danceaarea.jpg" style="width:100%;height: 100%;"></div>
-                       <div class="item" style="display:block;"><h4 style="position: absolute;font-size: 30px;bottom:0;left:30%;color:white;font-weight: normal;">Library</h4><img src="https://secureito.com/i_images/librrary.jpg" style="width:100%;height: 100%;"></div>
-<div class="item" style="display:block;"><h4 style="position: absolute;font-size: 30px;bottom:0;left:30%;color:white;font-weight: normal;">Computer Lab</h4><img src="https://secureito.com/i_images/computerlab.jpg" style="width:100%;height: 100%;"></div>
+                 <div class="item" style="display:block;"><h4 style="position: absolute;font-size: 30px;bottom:0;left:30%;color:white;font-weight: normal;">Sciencelab</h4><img src="i_images/sciencelab.jpg" style="width:100%;height: 100%;"></div>
+                    <div class="item" style="display:block;"><h4 style="position: absolute;font-size: 30px;bottom:0;left:30%;color:white;font-weight: normal;">Dance Hall</h4><img src="i_images/danceaarea.jpg" style="width:100%;height: 100%;"></div>
+                       <div class="item" style="display:block;"><h4 style="position: absolute;font-size: 30px;bottom:0;left:30%;color:white;font-weight: normal;">Library</h4><img src="i_images/librrary.jpg" style="width:100%;height: 100%;"></div>
+<div class="item" style="display:block;"><h4 style="position: absolute;font-size: 30px;bottom:0;left:30%;color:white;font-weight: normal;">Computer Lab</h4><img src="i_images/computerlab.jpg" style="width:100%;height: 100%;"></div>
 
-<div class="item" style="display:block;"><h4 style="position: absolute;font-size: 30px;bottom:0;left:30%;color:white;font-weight: normal;">Washroom</h4><img src="https://secureito.com/i_images/washroom.jpg" style="width:100%;height: 100%;"></div>
-<div class="item" style="display:block;"><h4 style="position: absolute;font-size: 30px;bottom:0;left:30%;color:white;font-weight: normal;">WashBasin</h4><img src="https://secureito.com/i_images/washbasin.jpg" style="width:100%;height: 100%;"></div>
+<div class="item" style="display:block;"><h4 style="position: absolute;font-size: 30px;bottom:0;left:30%;color:white;font-weight: normal;">Washroom</h4><img src="i_images/washroom.jpg" style="width:100%;height: 100%;"></div>
+<div class="item" style="display:block;"><h4 style="position: absolute;font-size: 30px;bottom:0;left:30%;color:white;font-weight: normal;">WashBasin</h4><img src="i_images/washbasin.jpg" style="width:100%;height: 100%;"></div>
 
-<div class="item" style="display:block;"><h4 style="position: absolute;font-size: 30px;bottom:0;left:30%;color:white;font-weight: normal;">Back-Entrance</h4><img src="https://secureito.com/i_images/backentrance.jpg" style="width:100%;height: 100%;"></div>
+<div class="item" style="display:block;"><h4 style="position: absolute;font-size: 30px;bottom:0;left:30%;color:white;font-weight: normal;">Back-Entrance</h4><img src="i_images/backentrance.jpg" style="width:100%;height: 100%;"></div>
    
 </div>
 
@@ -863,13 +863,13 @@ $('.owl-carousel').owlCarousel({
           <h4>Links</h4>
           <ul class="list-unstyled">
             <li><a href="#"></a></li>
-            <li><a href="https://secureito.com/rules.php">Rules And Regulations</a></li>
-            <li><a href="https://secureito.com/Trusteemessage.php">Trustee's Message</a></li>
-            <li><a href="https://secureito.com/principalmessage.php">Principal Message</a></li>
-            <li><a href="https://secureito.com/facalities.php">Facilities</a></li>
-              <li><a href="https://secureito.com/Cirriculum.php">Curriculum</a></li>
-                <li><a href="https://secureito.com/patronmessage.php">Patron's Message</a></li>
-                  <li><a href="https://secureito.com/ourvision.php">Vision</a></li>
+            <li><a href="rules.php">Rules And Regulations</a></li>
+            <li><a href="Trusteemessage.php">Trustee's Message</a></li>
+            <li><a href="principalmessage.php">Principal Message</a></li>
+            <li><a href="facalities.php">Facilities</a></li>
+              <li><a href="Cirriculum.php">Curriculum</a></li>
+                <li><a href="patronmessage.php">Patron's Message</a></li>
+                  <li><a href="ourvision.php">Vision</a></li>
 
                      </ul>
         </div>
@@ -879,12 +879,12 @@ $('.owl-carousel').owlCarousel({
         <div class="footer-pad">
           <h4>Resources</h4>
           <ul class="list-unstyled">
-            <li><a href="https://secureito.com/faq.php">FAQS</a></li>
-             <li><a href="https://secureito.com/ptalist.php">PTA List</a></li>
-              <li><a href="https://secureito.com/stafflist.php">Staff</a></li>
-            <li><a href="https://secureito.com/faq.php">Admission Faqs</a></li>
-            <li><a href="https://secureito.com/gallery.php">Gallery</a></li>
-            <li><a href="https://secureito.com/facalities.php">Facalities</a></li>
+            <li><a href="faq.php">FAQS</a></li>
+             <li><a href="ptalist.php">PTA List</a></li>
+              <li><a href="stafflist.php">Staff</a></li>
+            <li><a href="faq.php">Admission Faqs</a></li>
+            <li><a href="gallery.php">Gallery</a></li>
+            <li><a href="facalities.php">Facalities</a></li>
           </ul>
         </div>
       </div>
