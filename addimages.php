@@ -728,44 +728,59 @@ padding-top: 5px;
 
 
   //]]></script>
-   <nav  id='cssmenu' style="float:left;position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;">
-    <div id="head-mobile"></div>
-    <div  class="button"></div>
-    <ul  >
-      <li ><a href='https://secureito/mps.php'>Home</a></li>
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="width:100%;background-color:#63B8FF;font-size:18px;white-space: nowrap;">
+  <a class="navbar-brand" href="#"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-      <li ><a href='https://secureito/welcome.php'>Enquiry List</a></li>
-      <li><a href='#'>Notice Board</a>
-        <ul>
-          <li><a href='https://secureito/addnotice.php'>Add Notice</a></li>
-
-          <li><a href='https://secureito/noticeboard.php'>View Notice board</a></li>
-
-        </ul>
-
-
-
+  <div class="collapse navbar-collapse"  id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto"  >
+      <li class="nav-item active"  style="margin-right:3%;" >
+        <a class="nav-link" href="https://secureito.com/mps.php">Home</a>
       </li>
+   <li class="nav-item active"  style="margin-right:3%;" >
+        <a class="nav-link" href="https://secureito.com/welcome.php">Enquiry List</a>
+      </li>
+      <li class="nav-item active dropdown" style="margin-right:3%;">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Notice Board
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="https://secureito.com/addfiles.php">Add new Notice</a>
+          <a class="dropdown-item" href="https://secureito.com/principalmessage.php">View Notices</a>
 
-         <li><a href='#'>Testimonial</a>
-        <ul>
-          <li><a href='https://secureito/addtestimony.php'>Add testimony</a></li>
+      
+        </div>
+      </li>
+       <li class="nav-item dropdown active" style="margin-right:3%;">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Testimonies
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="https://secureito.com/addtestimony.php">Add testimonies</a>
+          <a class="dropdown-item" href="https://secureito.com/viewtestimony.php">View testimonies</a>
 
-          <li><a href='https://secureito/viewtestimony.php'>View testimony</a></li>
-        </ul>
-          <li><a href='#'>Gallery</a>
-        <ul>
-                    <li><a href='https://secureito/galleryupload.php'>Create new Title</a></li>
+        </div>
+      </li>
+       <li class="nav-item dropdown active" style="margin-right:3%;">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Gallery
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="https://secureito.com/cirriculum.php">Create new gallery title</a>
+          <a class="dropdown-item" href="https://secureito.com/facalities.php">Add images into existing titles</a>
+                      <a class="dropdown-item" href="https://secureito.com/achievements.php">View gallery</a>
 
-          <li><a href='https://secureito/addimages.php'>Add images into existing title</a></li>
+        </div>
+      </li>
+            
 
-          <li><a href='https://secureito/viewgallerytitle.php'>View existing Titles</a></li>
-
-        </ul>
-
-  </nav>
+    
+    </ul>
+ 
+  </div>
+</nav>
 
 <div class="container" style="margin-top: 200px;">
 <div class="form-box form" style="margin-top: 50px;margin-left: 10vw;background-color: #f2f2f2;">
