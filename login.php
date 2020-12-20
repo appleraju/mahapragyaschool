@@ -420,7 +420,7 @@ padding-top: 5px;
 </nav>
     <div >
 
-    <div class="form" style="margin:auto;margin-top: 100px;margin-left: 40%">
+    <div class="form" style="margin:auto;margin-top: 10px;margin-left: 40%">
 
 
 
@@ -445,7 +445,7 @@ padding-top: 5px;
 
         <body>
      <div>    
-<div class="container" style="right:20%;position:relative;width:80%;margin-top: 200px;">
+<div class="container" style="right:20%;position:relative;width:80%;margin-top: 100px;">
 <div  style="width:100%;">
   <h1 style="text-align: center;">Login</h1>
   <p style="text-align: center;">Fill in all the details</p>
