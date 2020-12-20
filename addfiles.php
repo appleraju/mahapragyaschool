@@ -281,18 +281,18 @@ padding-top: 5px;
   <div class="collapse navbar-collapse"  id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto"  >
       <li class="nav-item active"  style="margin-right:3%;" >
-        <a class="nav-link" href="https://secureito.com/mps.php">Home</a>
+        <a class="nav-link" href="mps.php">Home</a>
       </li>
    <li class="nav-item active"  style="margin-right:3%;" >
-        <a class="nav-link" href="https://secureito.com/welcome.php">Enquiry List</a>
+        <a class="nav-link" href="welcome.php">Enquiry List</a>
       </li>
       <li class="nav-item active dropdown" style="margin-right:3%;">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
          Notice Board
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="https://secureito.com/addfiles.php">Add new Notice</a>
-          <a class="dropdown-item" href="https://secureito.com/noticeboard.php">View Notices</a>
+          <a class="dropdown-item" href="addfiles.php">Add new Notice</a>
+          <a class="dropdown-item" href="noticeboard.php">View Notices</a>
 
       
         </div>
@@ -302,8 +302,8 @@ padding-top: 5px;
         Testimonies
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="https://secureito.com/addtestimony.php">Add testimonies</a>
-          <a class="dropdown-item" href="https://secureito.com/viewtestimony.php">View testimonies</a>
+          <a class="dropdown-item" href="addtestimony.php">Add testimonies</a>
+          <a class="dropdown-item" href="viewtestimony.php">View testimonies</a>
 
         </div>
       </li>
@@ -312,9 +312,9 @@ padding-top: 5px;
          Gallery
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="https://secureito.com/galleryupload.php">Create new gallery title</a>
-          <a class="dropdown-item" href="https://secureito.com/addimages.php">Add images into existing titles</a>
-                      <a class="dropdown-item" href="https://secureito.com/viewgallerytitle.php">View gallery</a>
+          <a class="dropdown-item" href="galleryupload.php">Create new gallery title</a>
+          <a class="dropdown-item" href="addimages.php">Add images into existing titles</a>
+                      <a class="dropdown-item" href="viewgallerytitle.php">View gallery</a>
 
         </div>
       </li>
@@ -364,10 +364,10 @@ padding-top: 5px;
           <h4>Links</h4>
           <ul class="list-unstyled">
             <li><a href="#"></a></li>
-            <li><a href="https://secureito.com/rules.html">Rules And Regulations</a></li>
-            <li><a href="https://secureito.com/Trusteemessage.html">Trustee's Message</a></li>
-            <li><a href="https://secureito.com/principalmessage.html">Principal Message</a></li>
-            <li><a href="https://secureito.com/facalities.html">Facilities</a></li>
+            <li><a href="rules.html">Rules And Regulations</a></li>
+            <li><a href="Trusteemessage.html">Trustee's Message</a></li>
+            <li><a href="principalmessage.html">Principal Message</a></li>
+            <li><a href="facalities.html">Facilities</a></li>
                      </ul>
         </div>
       </div>
@@ -376,10 +376,10 @@ padding-top: 5px;
         <div class="footer-pad">
           <h4>Resources</h4>
           <ul class="list-unstyled">
-            <li><a href="https://secureito.com/faq.html">FAQS</a></li>
-            <li><a href="https://secureito.com/faq.html">ADMISSION FAQS</a></li>
-            <li><a href="https://secureito.com/gallery.html">GALLERY</a></li>
-            <li><a href="https://secureito.com/facalities.html">Friday Clubs</a></li>
+            <li><a href="faq.html">FAQS</a></li>
+            <li><a href="faq.html">ADMISSION FAQS</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="facalities.html">Friday Clubs</a></li>
           </ul>
         </div>
       </div>

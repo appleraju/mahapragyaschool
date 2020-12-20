@@ -280,7 +280,7 @@ padding-top: 5px;
   <div class="collapse navbar-collapse"  id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto"  >
       <li class="nav-item active"  style="margin-right:3%;" >
-        <a class="nav-link" href="https://secureito.com/mps.php">Home</a>
+        <a class="nav-link" href="mps.php">Home</a>
       </li>
  
       <li class="nav-item active dropdown" style="margin-right:3%;">
@@ -288,11 +288,11 @@ padding-top: 5px;
          About
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="/patronmessage.php">Patron's Message</a>
-          <a class="dropdown-item" href="https://secureito.com/principalmessage.php">Principal's Message</a>
-                      <a class="dropdown-item" href="https://secureito.com/Trusteemessage.php">Chairman's Message</a>
+          <a class="dropdown-item" href="patronmessage.php">Patron's Message</a>
+          <a class="dropdown-item" href="principalmessage.php">Principal's Message</a>
+                      <a class="dropdown-item" href="Trusteemessage.php">Chairman's Message</a>
 
-          <a class="dropdown-item" href="https://secureito.com/ourvision.php" >Our Vision</a>
+          <a class="dropdown-item" href="ourvision.php" >Our Vision</a>
         </div>
       </li>
        <li class="nav-item dropdown active" style="margin-right:3%;">
@@ -300,8 +300,8 @@ padding-top: 5px;
          Our Team
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="https://secureito.com/stafflist.php">Staff List</a>
-          <a class="dropdown-item" href="https://secureito.com/ptalist.php">PTA list</a>
+          <a class="dropdown-item" href="stafflist.php">Staff List</a>
+          <a class="dropdown-item" href="ptalist.php">PTA list</a>
 
         </div>
       </li>
@@ -310,9 +310,9 @@ padding-top: 5px;
          School
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="https://secureito.com/cirriculum.php">Curriculum</a>
-          <a class="dropdown-item" href="https://secureito.com/facalities.php">Facalities</a>
-                      <a class="dropdown-item" href="https://secureito.com/achievements.php">Achievements</a>
+          <a class="dropdown-item" href="cirriculum.php">Curriculum</a>
+          <a class="dropdown-item" href="facalities.php">Facalities</a>
+                      <a class="dropdown-item" href="achievements.php">Achievements</a>
 
         </div>
       </li>
@@ -321,24 +321,24 @@ padding-top: 5px;
          Admissions
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="https://secureito.com/faq.php">Admission's FAQ</a>
-          <a class="dropdown-item" href="https://secureito.com/rules.php">Rules & Regulations</a>
+          <a class="dropdown-item" href="faq.php">Admission's FAQ</a>
+          <a class="dropdown-item" href="rules.php">Rules & Regulations</a>
 
 
         </div>
       </li>
 
             <li class="nav-item active"  style="margin-right:3%;" >
-        <a class="nav-link" href="https://secureito.com/gallery.php">Gallery</a>
+        <a class="nav-link" href="gallery.php">Gallery</a>
       </li>
       <li class="nav-item active"  style="margin-right:3%;" >
-        <a class="nav-link" href="https://secureito.com/schoolenquiryform.php">Admission Enquiry</a>
+        <a class="nav-link" href="schoolenquiryform.php">Admission Enquiry</a>
       </li>
       <li class="nav-item active"  style="margin-right:3%;" >
-        <a class="nav-link" href="https://secureito.com/contact.html">Reach Us</a>
+        <a class="nav-link" href="contact.html">Reach Us</a>
       </li>
       <li class="nav-item active"  style="margin-right:3%;" >
-        <a class="nav-link" href="https://secureito.com/login.php">Staff Login</a>
+        <a class="nav-link" href="login.php">Staff Login</a>
       </li>
 
     
@@ -455,13 +455,13 @@ padding-top: 5px;
           <h4>Links</h4>
           <ul class="list-unstyled">
             <li><a href="#"></a></li>
-            <li><a href="https://secureito.com/rules.php">Rules And Regulations</a></li>
-            <li><a href="https://secureito.com/Trusteemessage.php">Trustee's Message</a></li>
-            <li><a href="https://secureito.com/principalmessage.php">Principal Message</a></li>
-            <li><a href="https://secureito.com/facalities.php">Facilities</a></li>
-              <li><a href="https://secureito.com/Cirriculum.php">Curriculum</a></li>
-                <li><a href="https://secureito.com/patronmessage.php">Patron's Message</a></li>
-                  <li><a href="https://secureito.com/ourvision.php">Vision</a></li>
+            <li><a href="rules.php">Rules And Regulations</a></li>
+            <li><a href="Trusteemessage.php">Trustee's Message</a></li>
+            <li><a href="principalmessage.php">Principal Message</a></li>
+            <li><a href="facalities.php">Facilities</a></li>
+              <li><a href="Cirriculum.php">Curriculum</a></li>
+                <li><a href="patronmessage.php">Patron's Message</a></li>
+                  <li><a href="ourvision.php">Vision</a></li>
 
                      </ul>
         </div>
@@ -471,12 +471,12 @@ padding-top: 5px;
         <div class="footer-pad">
           <h4>Resources</h4>
           <ul class="list-unstyled">
-            <li><a href="https://secureito.com/faq.php">FAQS</a></li>
-             <li><a href="https://secureito.com/ptalist.php">PTA List</a></li>
-              <li><a href="https://secureito.com/stafflist.php">Staff</a></li>
-            <li><a href="https://secureito.com/faq.php">Admission Faqs</a></li>
-            <li><a href="https://secureito.com/gallery.php">Gallery</a></li>
-            <li><a href="https://secureito.com/facalities.php">Facalities</a></li>
+            <li><a href="faq.php">FAQS</a></li>
+             <li><a href="ptalist.php">PTA List</a></li>
+              <li><a href="stafflist.php">Staff</a></li>
+            <li><a href="faq.php">Admission Faqs</a></li>
+            <li><a href="gallery.php">Gallery</a></li>
+            <li><a href="facalities.php">Facalities</a></li>
           </ul>
         </div>
       </div>

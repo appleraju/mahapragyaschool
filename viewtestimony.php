@@ -281,18 +281,18 @@ padding-top: 5px;
   <div class="collapse navbar-collapse"  id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto"  >
       <li class="nav-item active"  style="margin-right:3%;" >
-        <a class="nav-link" href="https://secureito.com/mps.php">Home</a>
+        <a class="nav-link" href="mps.php">Home</a>
       </li>
    <li class="nav-item active"  style="margin-right:3%;" >
-        <a class="nav-link" href="https://secureito.com/welcome.php">Enquiry List</a>
+        <a class="nav-link" href="welcome.php">Enquiry List</a>
       </li>
       <li class="nav-item active dropdown" style="margin-right:3%;">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
          Notice Board
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="https://secureito.com/addfiles.php">Add new Notice</a>
-          <a class="dropdown-item" href="https://secureito.com/noticeboard.php">View Notices</a>
+          <a class="dropdown-item" href="addfiles.php">Add new Notice</a>
+          <a class="dropdown-item" href="noticeboard.php">View Notices</a>
 
       
         </div>
@@ -302,8 +302,8 @@ padding-top: 5px;
         Testimonies
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="https://secureito.com/addtestimony.php">Add testimonies</a>
-          <a class="dropdown-item" href="https://secureito.com/viewtestimony.php">View testimonies</a>
+          <a class="dropdown-item" href="addtestimony.php">Add testimonies</a>
+          <a class="dropdown-item" href="viewtestimony.php">View testimonies</a>
 
         </div>
       </li>
@@ -312,9 +312,9 @@ padding-top: 5px;
          Gallery
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="https://secureito.com/galleryupload.php">Create new gallery title</a>
-          <a class="dropdown-item" href="https://secureito.com/addimages.php">Add images into existing titles</a>
-                      <a class="dropdown-item" href="https://secureito.com/viewgallerytitle.php">View gallery</a>
+          <a class="dropdown-item" href="galleryupload.php">Create new gallery title</a>
+          <a class="dropdown-item" href="addimages.php">Add images into existing titles</a>
+                      <a class="dropdown-item" href="viewgallerytitle.php">View gallery</a>
 
         </div>
       </li>
@@ -399,13 +399,13 @@ echo '</div>';
           <h4>Links</h4>
           <ul class="list-unstyled">
             <li><a href="#"></a></li>
-            <li><a href="https://secureito.com/rules.php">Rules And Regulations</a></li>
-            <li><a href="https://secureito.com/Trusteemessage.php">Trustee's Message</a></li>
-            <li><a href="https://secureito.com/principalmessage.php">Principal Message</a></li>
-            <li><a href="https://secureito.com/facalities.php">Facilities</a></li>
-              <li><a href="https://secureito.com/Cirriculum.php">Curriculum</a></li>
-                <li><a href="https://secureito.com/patronmessage.php">Patron's Message</a></li>
-                  <li><a href="https://secureito.com/ourvision.php">Vision</a></li>
+            <li><a href="rules.php">Rules And Regulations</a></li>
+            <li><a href="Trusteemessage.php">Trustee's Message</a></li>
+            <li><a href="principalmessage.php">Principal Message</a></li>
+            <li><a href="facalities.php">Facilities</a></li>
+              <li><a href="Cirriculum.php">Curriculum</a></li>
+                <li><a href="patronmessage.php">Patron's Message</a></li>
+                  <li><a href="ourvision.php">Vision</a></li>
 
                      </ul>
         </div>
@@ -415,12 +415,12 @@ echo '</div>';
         <div class="footer-pad">
           <h4>Resources</h4>
           <ul class="list-unstyled">
-            <li><a href="https://secureito.com/faq.php">FAQS</a></li>
-             <li><a href="https://secureito.com/ptalist.php">PTA List</a></li>
-              <li><a href="https://secureito.com/stafflist.php">Staff</a></li>
-            <li><a href="https://secureito.com/faq.php">Admission Faqs</a></li>
-            <li><a href="https://secureito.com/gallery.php">Gallery</a></li>
-            <li><a href="https://secureito.com/facalities.php">Facalities</a></li>
+            <li><a href="faq.php">FAQS</a></li>
+             <li><a href="ptalist.php">PTA List</a></li>
+              <li><a href="stafflist.php">Staff</a></li>
+            <li><a href="faq.php">Admission Faqs</a></li>
+            <li><a href="gallery.php">Gallery</a></li>
+            <li><a href="facalities.php">Facalities</a></li>
           </ul>
         </div>
       </div>
