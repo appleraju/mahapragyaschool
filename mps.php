@@ -482,7 +482,7 @@ Based upon Acharya Mahapragya’s educational philosophy, the school aspires to 
    
 
   <div class="card col-sm" style="border:none;width:280px;height:620px; margin-top:50px;">
-  <img class="card-img-top" src="https://secureito.com/i_images/chairman.jpg" style="width:280px;height:200px;" alt="Card image">
+  <img class="card-img-top" src="https://secureito.com/i_images/chairman.jpg" style="height:200px;" alt="Card image">
   <div class="card-body">
     <h4 class="card-title">Trustee Message</h4>
     <p class="card-text" style="font-weight: 200; font-family: 'Lato';color: gray;">Dear Parents and students,
@@ -496,7 +496,7 @@ The school aims at imparting knowledge that would be relevant in life always for
 </div>
 
   <div class="card col-sm" style="border:none;width:280px;height:620px;margin-top:50px; ">
-  <img class="card-img-top" src="https://secureito.com/i_images/patron.jpg" style="width:280px;height:200px;" alt="Card image">
+  <img class="card-img-top" src="https://secureito.com/i_images/patron.jpg" style="height:200px;" alt="Card image">
   <div class="card-body">
     <h4 class="card-title">Patron's Message</h4>
     <p class="card-text"style="font-weight: 200; font-family: 'Lato';color: gray;">Dear Parents and Students, 
@@ -504,13 +504,13 @@ The school aims at imparting knowledge that would be relevant in life always for
 Every child is expected to go to school for about 14 years in his/her life. During this period, what he has to learn as a human being is to develop two of in-built mechanisms of the human brain,  in the right direction at the right place (School) and with the right people (teachers.The  two mechanisms in his brain are Neo-cortex and limbic system.
 
 </p>
-    <a href="https://secureito.com/patronmessage.html" class="btn btn-primary">Read More</a>
+    <a href="https://secureito.com/patronmessage.php" class="btn btn-primary">Read More</a>
   </div>
 </div>
 
 
   <div class="card col-sm" style="width:280px;height:620px;margin-top:50px;border:none;">
-  <img class="card-img-top" src="https://secureito.com/i_images/princi.jpg" style="width:280px;height:200px;" alt="Card image">
+  <img class="card-img-top" src="https://secureito.com/i_images/princi.jpg" style="height:200px;" alt="Card image">
   <div class="card-body">
     <h4 class="card-title">Principal Message</h4>
     <p class="card-text" style="font-weight: 200; font-family: 'Lato';color: gray;">Mahapragya Public School (MPS) is the best co-educational English medium School in Mumbai, which admits children of all caste, community, religion and race without any distinction.Mahapragya Public School (MPS) is the best co-educational English medium School in Mumbai, which admits children of all caste, community, religion and race without any</p>
