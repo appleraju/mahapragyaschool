@@ -293,7 +293,7 @@ padding-top: 5px;
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="https://secureito.com/addfiles.php">Add new Notice</a>
-          <a class="dropdown-item" href="https://secureito.com/principalmessage.php">View Notices</a>
+          <a class="dropdown-item" href="https://secureito.com/noticeboard.php">View Notices</a>
 
       
         </div>
@@ -313,9 +313,9 @@ padding-top: 5px;
          Gallery
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="https://secureito.com/cirriculum.php">Create new gallery title</a>
-          <a class="dropdown-item" href="https://secureito.com/facalities.php">Add images into existing titles</a>
-                      <a class="dropdown-item" href="https://secureito.com/achievements.php">View gallery</a>
+          <a class="dropdown-item" href="https://secureito.com/galleryupload.php">Create new gallery title</a>
+          <a class="dropdown-item" href="https://secureito.com/addimages.php">Add images into existing titles</a>
+                      <a class="dropdown-item" href="https://secureito.com/viewgallerytitle.php">View gallery</a>
 
         </div>
       </li>

@@ -272,8 +272,7 @@ padding-top: 5px;
 
 
   //]]></script>
-
-<nav class="navbar navbar-expand-lg navbar-light sticky-top" style="width:100%;background-color:#63B8FF;font-size:18px;white-space: nowrap;">
+ <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="width:100%;background-color:#63B8FF;font-size:18px;white-space: nowrap;">
   <a class="navbar-brand" href="#"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -293,7 +292,7 @@ padding-top: 5px;
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="https://secureito.com/addfiles.php">Add new Notice</a>
-          <a class="dropdown-item" href="https://secureito.com/principalmessage.php">View Notices</a>
+          <a class="dropdown-item" href="https://secureito.com/noticeboard.php">View Notices</a>
 
       
         </div>
@@ -313,9 +312,9 @@ padding-top: 5px;
          Gallery
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="https://secureito.com/cirriculum.php">Create new gallery title</a>
-          <a class="dropdown-item" href="https://secureito.com/facalities.php">Add images into existing titles</a>
-                      <a class="dropdown-item" href="https://secureito.com/achievements.php">View gallery</a>
+          <a class="dropdown-item" href="https://secureito.com/galleryupload.php">Create new gallery title</a>
+          <a class="dropdown-item" href="https://secureito.com/addimages.php">Add images into existing titles</a>
+                      <a class="dropdown-item" href="https://secureito.com/viewgallerytitle.php">View gallery</a>
 
         </div>
       </li>
@@ -326,7 +325,6 @@ padding-top: 5px;
  
   </div>
 </nav>
-
 
 
     <div style="margin-top: 100px;">
