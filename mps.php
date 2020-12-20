@@ -202,7 +202,7 @@ ul.social-network li {
       
   <p  class="visible-lg"  style="display:inline;float:left;left:3%;top:15%;position: relative;"> <a href=""><img src="https://www.mahapragyapublicschool.com/wp-content/uploads/2016/10/cropped-cropped-mahapragya_logo.jpg" width="75px" height="85px" style="margin-right:10px;" alt="My Logo">
      <font style="font-size:27px;float:right;font-family: 'Lato';font-weight: 600;margin-top: 0%;line-height: 1.4;"> MAHAPRAGYA <br>PUBLIC SCHOOL</font></a></p>
-<p class="d-none d-md-block"   style="display:inline;float:right;right:60%;position: relative;"><script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=04f64b1ac64cc7fbcbd3bf024e3dd1ed03eae61c'></script>
+<p class="d-none d-md-block"   style="display:inline;float:right;right:4%;position: relative;"><script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=04f64b1ac64cc7fbcbd3bf024e3dd1ed03eae61c'></script>
 <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/771291/t/2"></script>
 
 
@@ -212,7 +212,7 @@ vertical-align: middle;
 margin-right: 6px;
 padding-top: 5px; 
 "></i>
-    <font style="font-size:1vw;float:  right;font-family: lato;font-weight: 100;font-color:black;">022 2241 4201 <br>  <span>022 2241 4201</span>
+    <font style="font-size:1vw;float:  right;font-family: lato;font-weight: 100;font-color:black;"><a href="tel:02222414201">022 22414201</a> <br>  <span><a href="tel:976956114">+91 976956114</a></span>
   </font>
   </p>
   <p class="d-none d-md-block"   style="display:inline;float:right;right:13%;top:15%;position:relative;"><i class="fa fa-map-marker" style="opacity:0.7;font-size:40px;
@@ -220,7 +220,7 @@ vertical-align: middle;
 margin-right: 6px;
 padding-top: 5px; 
 "></i>
-    <font style="font-size:1vw;float: right;font-family: lato;font-weight: 100;font-color:#0000">32, Dadiseth Agyari Lane <br>  <span>Kalbadevi Road</span><br><span>Mumbai-02</span>
+    <font style="font-size:1vw;float: right;font-family: lato;font-weight: 100;font-color:#0000">32, Dadiseth Agyari Lane <br>  <span>Kalbadevi Road</span><br><span>Mumbai, 400002</span>
   </font>
   </p>
  <p class="d-none d-md-block"   style="display:inline;float:right;right:-15%;top:15%;position:relative;"><i class="fa fa-globe" style="opacity:0.7;font-size:40px;
@@ -835,6 +835,7 @@ $('.owl-carousel').owlCarousel({
     
     
   </div>
+        </div>
 
 <footer class="mainfooter" role="contentinfo">
   <div class="footer-middle">
@@ -866,6 +867,10 @@ $('.owl-carousel').owlCarousel({
             <li><a href="https://secureito.com/Trusteemessage.php">Trustee's Message</a></li>
             <li><a href="https://secureito.com/principalmessage.php">Principal Message</a></li>
             <li><a href="https://secureito.com/facalities.php">Facilities</a></li>
+              <li><a href="https://secureito.com/Cirriculum.php">Curriculum</a></li>
+                <li><a href="https://secureito.com/patronmessage.php">Patron's Message</a></li>
+                  <li><a href="https://secureito.com/ourvision.php">Vision</a></li>
+
                      </ul>
         </div>
       </div>
@@ -875,9 +880,11 @@ $('.owl-carousel').owlCarousel({
           <h4>Resources</h4>
           <ul class="list-unstyled">
             <li><a href="https://secureito.com/faq.php">FAQS</a></li>
-            <li><a href="https://secureito.com/faq.php">ADMISSION FAQS</a></li>
-            <li><a href="https://secureito.com/gallery.php">GALLERY</a></li>
-            <li><a href="https://secureito.com/facalities.php">Friday Clubs</a></li>
+             <li><a href="https://secureito.com/ptalist.php">PTA List</a></li>
+              <li><a href="https://secureito.com/stafflist.php">Staff</a></li>
+            <li><a href="https://secureito.com/faq.php">Admission Faqs</a></li>
+            <li><a href="https://secureito.com/gallery.php">Gallery</a></li>
+            <li><a href="https://secureito.com/facalities.php">Facalities</a></li>
           </ul>
         </div>
       </div>
@@ -900,7 +907,7 @@ $('.owl-carousel').owlCarousel({
     </div>
   <div class="row">
     <div class="col-md-12 copy">
-      <p class="text-center">&copy; Copyright 2020 - MahaPragya Public School  All rights reserved.</p>
+      <p class="text-center">&copy; Copyright 2020 - MahaPragya Public School  All rights reserved. |<a href="https://www.linkedin.com/in/pujan-kothari-2600b2142/"> Created By Pujan Narendra Kothari (KP) (+91-9987100111)</a> |  Credits to Respective Owners |</p>
     </div>
       </div>
 
