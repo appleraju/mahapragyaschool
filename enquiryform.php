@@ -822,82 +822,79 @@ padding-top: 5px;
           </div>
       </form>
     </div>
-    <footer class="mainfooter" role="contentinfo">
-        <div class="footer-middle">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3 col-sm-6">
-                        <!--Column1-->
-                        <div class="footer-pad">
-                            <h4>MahaPragya Public School</h4>
-                            <ul class="list-unstyled">
-                                <button style="background-color: DodgerBlue;
-  border: none;
-  color: white;
+   
+<footer class="mainfooter" role="contentinfo">
+  <div class="footer-middle">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-6">
+        <!--Column1-->
+        <div class="footer-pad">
+          <h4>MahaPragya Public School</h4>
+          <ul class="list-unstyled">
+            <button style="background-color: DodgerBlue;
+  border: none; 
+  color: white; 
   border-radius: 5px;
-  padding: 12px 16px;
+  padding: 12px 16px; 
   font-size: 20px;
-  cursor: pointer; "><i class="fa fa-envelope"></i><a style="font-size: 20px;"
-                                        href="mailto:principal@mahapragyapublicschool.com"> Mail Us</a></button>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 col-sm-6">
-                        <!--Column1-->
-                        <div class="footer-pad">
-                            <h4>Links</h4>
-                            <ul class="list-unstyled">
-                                <li><a href="#"></a></li>
-                                <li><a href="#">Rules And Regulations</a></li>
-                                <li><a href="#">Trustee's Message</a></li>
-                                <li><a href="#">Principal Message</a></li>
-                                <li><a href="#">FAcilities</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <!--Column1-->
-                        <div class="footer-pad">
-                            <h4>Resources</h4>
-                            <ul class="list-unstyled">
-                                <li><a href="#">FAQS</a></li>
-                                <li><a href="#">ADMISSION FAQS</a></li>
-                                <li><a href="#">GALLERY</a></li>
-                                <li><a href="#">Friday Clubs</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <!--Column1-->
-                        <div class="footer-pad">
-                            <h4>Locate Us</h4>
-                            <ul class="list-unstyled">
-                                <div style="width: 100%"><iframe width="200" height="200" frameborder="0" scrolling="no"
-                                        marginheight="0" marginwidth="0"
-                                        src="https://maps.google.com/maps?width=200&amp;height=200&amp;hl=en&amp;q=%2032,%20Dadiseth%20Agyari%20Lane,%20Kalbadevi%20Road,%20Mumbai,%20Maharashtra%20400002+()&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a
-                                        href="https://www.maps.ie/route-planner.htm"></a></div>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <h4>Follow Us</h4>
-                        <ul class="social-network social-circle">
-                            <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12 copy">
-                        <p class="text-center">&copy; Copyright 2020 - MahaPragya Public School All rights reserved.</p>
-                    </div>
-                </div>
-
-
-            </div>
+  cursor: pointer; "><i class="fa fa-envelope"></i><a style="font-size: 20px;" href="mailto:principal@mahapragyapublicschool.com">  Mail Us</a></button>
+                  </ul>
         </div>
-    </footer>
+      </div>
+
+      <div class="col-md-3 col-sm-6">
+        <!--Column1-->
+        <div class="footer-pad">
+          <h4>Links</h4>
+          <ul class="list-unstyled">
+            <li><a href="#"></a></li>
+            <li><a href="https://secureito.com/rules.html">Rules And Regulations</a></li>
+            <li><a href="https://secureito.com/Trusteemessage.html">Trustee's Message</a></li>
+            <li><a href="https://secureito.com/principalmessage.html">Principal Message</a></li>
+            <li><a href="https://secureito.com/facalities.html">Facilities</a></li>
+                     </ul>
+        </div>
+      </div>
+            <div class="col-md-3 col-sm-6">
+        <!--Column1-->
+        <div class="footer-pad">
+          <h4>Resources</h4>
+          <ul class="list-unstyled">
+            <li><a href="https://secureito.com/faq.html">FAQS</a></li>
+            <li><a href="https://secureito.com/faq.html">ADMISSION FAQS</a></li>
+            <li><a href="https://secureito.com/gallery.html">GALLERY</a></li>
+            <li><a href="https://secureito.com/facalities.html">Friday Clubs</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <!--Column1-->
+        <div class="footer-pad">
+          <h4>Locate Us</h4>
+          <ul class="list-unstyled">
+            <div style="width: 100%"><iframe width="200" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=200&amp;height=200&amp;hl=en&amp;q=%2032,%20Dadiseth%20Agyari%20Lane,%20Kalbadevi%20Road,%20Mumbai,%20Maharashtra%20400002+()&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://www.maps.ie/route-planner.htm"></a></div>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <h4>Follow Us</h4>
+            <ul class="social-network social-circle">
+             <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+             <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+            </ul>       
+    </div>
+    </div>
+  <div class="row">
+    <div class="col-md-12 copy">
+      <p class="text-center">&copy; Copyright 2020 - MahaPragya Public School  All rights reserved.</p>
+    </div>
+      </div>
+
+
+  </div>
+  </div>
+</footer>
 </body>
 
 </html>

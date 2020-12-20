@@ -459,10 +459,14 @@ echo '</div>';
           <h4>Links</h4>
           <ul class="list-unstyled">
             <li><a href="#"></a></li>
-            <li><a href="https://secureito.com/rules.html">Rules And Regulations</a></li>
-            <li><a href="https://secureito.com/Trusteemessage.html">Trustee's Message</a></li>
-            <li><a href="https://secureito.com/principalmessage.html">Principal Message</a></li>
-            <li><a href="https://secureito.com/facalities.html">Facilities</a></li>
+            <li><a href="https://secureito.com/rules.php">Rules And Regulations</a></li>
+            <li><a href="https://secureito.com/Trusteemessage.php">Trustee's Message</a></li>
+            <li><a href="https://secureito.com/principalmessage.php">Principal Message</a></li>
+            <li><a href="https://secureito.com/facalities.php">Facilities</a></li>
+              <li><a href="https://secureito.com/Cirriculum.php">Curriculum</a></li>
+                <li><a href="https://secureito.com/patronmessage.php">Patron's Message</a></li>
+                  <li><a href="https://secureito.com/ourvision.php">Vision</a></li>
+
                      </ul>
         </div>
       </div>
@@ -471,10 +475,12 @@ echo '</div>';
         <div class="footer-pad">
           <h4>Resources</h4>
           <ul class="list-unstyled">
-            <li><a href="https://secureito.com/faq.html">FAQS</a></li>
-            <li><a href="https://secureito.com/faq.html">ADMISSION FAQS</a></li>
-            <li><a href="https://secureito.com/gallery.html">GALLERY</a></li>
-            <li><a href="https://secureito.com/facalities.html">Friday Clubs</a></li>
+            <li><a href="https://secureito.com/faq.php">FAQS</a></li>
+             <li><a href="https://secureito.com/ptalist.php">PTA List</a></li>
+              <li><a href="https://secureito.com/stafflist.php">Staff</a></li>
+            <li><a href="https://secureito.com/faq.php">ADMISSION FAQS</a></li>
+            <li><a href="https://secureito.com/gallery.php">Gallery</a></li>
+            <li><a href="https://secureito.com/facalities.php">Facalities/a></li>
           </ul>
         </div>
       </div>
