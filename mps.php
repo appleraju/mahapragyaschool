@@ -283,16 +283,16 @@ padding-top: 5px;
         </div>
       </li>
             <li class="nav-item active"  style="margin-right:3%;" >
-        <a class="nav-link" href="https://secureito.com/gallery.php">Gallery </a>
+        <a class="nav-link" href="https://secureito.com/gallery.php">Gallery</a>
       </li>
       <li class="nav-item active"  style="margin-right:3%;" >
         <a class="nav-link" href="https://secureito.com/schoolenquiryform.php">Admission Enquiry</a>
       </li>
       <li class="nav-item active"  style="margin-right:3%;" >
-        <a class="nav-link" href="https://secureito.com/contact.html">Reach Us </a>
+        <a class="nav-link" href="https://secureito.com/contact.html">Reach Us</a>
       </li>
       <li class="nav-item active"  style="margin-right:3%;" >
-        <a class="nav-link" href="https://secureito.com/login.php">Staff Login </a>
+        <a class="nav-link" href="https://secureito.com/login.php">Staff Login</a>
       </li>
 
     
