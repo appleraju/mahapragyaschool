@@ -455,7 +455,7 @@ This is a sample scrolling text that has scrolls texts to left. <span>&#8226;</s
 
   </div>
   <div  style="margin:auto;margin-top:45px;text-align: center;width: 50%;left:40%;margin-bottom: 50px;">
-    <p style="line-height:1.3;"><font style="font-size: 45px;font-weight: 1000;font-style: lato;color: brown;">Welcome To </font><br><font style="font-size: 45px;font-weight: 1000;color: #1E90FF;">MahaPragya Public school</font> </p>
+    <p style="line-height:1.3;"><font style="font-size: 45px;font-weight: 1000;font-style: lato;color: brown;">Welcome To </font><br><font style="font-size: 45px;font-weight: 1000;color: #1E90FF;">Mahapragya Public school</font> </p>
     <p style="margin-top: 25px;"><font style="font-size: 18px;font-weight: 100;font-family:'Lato';color: grey;">Mahapragya Public School (MPS) is the best co-educational English medium School in Mumbai, which admits children of all caste, community, religion and race without any distinction.
 
 Creating to the nursery, primary and secondary segments, the school follows the syllabi laid by Central Board of Secondary Education (CBSE).
