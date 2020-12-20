@@ -527,7 +527,7 @@ box-shadow: -1px -1px 6px 0px rgba(163,163,163,1);background-color:white;width:2
     <div class="card-body text-center">
       <h4 class="card-title">Notice Board</h4>
     </div>
-    <marquee width="100%" height="100%"direction="up" color="gold" style=" overflow: hidden;display: inline-block;
+    <marquee onmouseover="this.stop();" onmouseout="this.start();" width="100%" height="100%"direction="up" color="gold" style=" overflow: hidden;display: inline-block;
     width: 100%; 
     text-align:left;margin-left:10px; ">
 <?php
@@ -601,7 +601,7 @@ box-shadow: -1px -1px 6px 0px rgba(163,163,163,1);background-color:white;width:2
     <div class="card-body text-center">
       <h4 class="card-title">Notice Board</h4>
     </div>
-     <marquee width="100%" height="100%" direction="up" color="gold" style=" overflow: hidden;display: inline-block;
+     <marquee onmouseover="this.stop();" onmouseout="this.start();" width="100%" height="100%" direction="up" color="gold" style=" overflow: hidden;display: inline-block;
     width: 100%; 
     text-align:left;margin-left:10px; ">
 <?php
