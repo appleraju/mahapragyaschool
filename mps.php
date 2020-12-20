@@ -384,7 +384,7 @@ padding-top: 5px;
     </ol>
     <div class="carousel-inner" role="listbox">
       <!-- Slide One - Set the background image for this slide in the line below -->
-      <div class="carousel-item active" style="background-image: url('https://secureito.com/i_images/1.jpg ')">
+      <div class="carousel-item active" style="background-image: url('https://secureito.com/i_images/2.jpg ')">
         <div class="carousel-caption d-none d-md-block">
           
         </div>
