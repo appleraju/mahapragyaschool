@@ -460,7 +460,7 @@ This is a sample scrolling text that has scrolls texts to left. <span>&#8226;</s
 
 Creating to the nursery, primary and secondary segments, the school follows the syllabi laid by Central Board of Secondary Education (CBSE).
 Based upon Acharya Mahapragya’s educational philosophy, the school aspires to be a trendsetter by promoting excellence in education. Yoga and Science of Living (Jeevan Vigyan) form an integral part of the curriculum.</font> </p>
-    <a href="https://secureito.com/ourvision.html"><button type="button" class="btn btn-primary" >Read more</button></a>
+    <a href="https://secureito.com/ourvision.php"><button type="button" class="btn btn-primary" >Read more</button></a>
   </div>
 
 
@@ -476,12 +476,12 @@ Based upon Acharya Mahapragya’s educational philosophy, the school aspires to 
 
 
 
-
-    <div style="height: 750px;" class="d-none d-sm-block
-">
+<div class="d-none d-sm-block">
+    <div class="row 
+" style="margin: auto;">
    
 
-  <div class="card" style="border:none;width:280px;height:620px;margin-top:50px;margin-right:2vw;margin-left:5vw;float:left; ">
+  <div class="card col-sm" style="border:none;width:280px;height:620px; margin-top:50px;">
   <img class="card-img-top" src="https://secureito.com/i_images/chairman.jpg" style="width:280px;height:200px;" alt="Card image">
   <div class="card-body">
     <h4 class="card-title">Trustee Message</h4>
@@ -491,12 +491,12 @@ I am glad that you have a taken the right decision of admitting your child in MP
 
 The school aims at imparting knowledge that would be relevant in life always for the student. It adopts a blend of both- contemporary and traditional outlook to create a positive atmosphere of learning for your child.
 </p>
-    <a href="https://secureito.com/Trusteemessage.html" class="btn btn-primary">Read More</a>
+    <a href="https://secureito.com/Trusteemessage.php" class="btn btn-primary">Read More</a>
   </div>
 </div>
 
-  <div class="card" style="border:none;width:280px;height:620px;margin-top:50px;float:left; ">
-  <img class="card-img-top" src="https://jvbi.ac.in/images/pages/teachers/img2.jpg" style="width:280px;height:200px;" alt="Card image">
+  <div class="card col-sm" style="border:none;width:280px;height:620px;margin-top:50px; ">
+  <img class="card-img-top" src="https://secureito.com/i_images/patron.jpg" style="width:280px;height:200px;" alt="Card image">
   <div class="card-body">
     <h4 class="card-title">Patron's Message</h4>
     <p class="card-text"style="font-weight: 200; font-family: 'Lato';color: gray;">Dear Parents and Students, 
@@ -509,21 +509,21 @@ Every child is expected to go to school for about 14 years in his/her life. Duri
 </div>
 
 
-  <div class="card" style="width:280px;height:620px;margin-top:50px;margin-right:1vw;margin-left:2vw;float:left;border:none;">
+  <div class="card col-sm" style="width:280px;height:620px;margin-top:50px;border:none;">
   <img class="card-img-top" src="https://secureito.com/i_images/princi.jpg" style="width:280px;height:200px;" alt="Card image">
   <div class="card-body">
     <h4 class="card-title">Principal Message</h4>
     <p class="card-text" style="font-weight: 200; font-family: 'Lato';color: gray;">Mahapragya Public School (MPS) is the best co-educational English medium School in Mumbai, which admits children of all caste, community, religion and race without any distinction.Mahapragya Public School (MPS) is the best co-educational English medium School in Mumbai, which admits children of all caste, community, religion and race without any</p>
-    <a href="https://secureito.com/principalmessage.html" class="btn btn-primary">Read more</a>
+    <a href="https://secureito.com/principalmessage.php" class="btn btn-primary">Read more</a>
   </div>
 </div>
 
 
  
 
- <div class="card bg"  style="-webkit-box-shadow: -1px -1px 6px 0px rgba(163,163,163,1);
+ <div class="card col-sm"  style="-webkit-box-shadow: -1px -1px 6px 0px rgba(163,163,163,1);
 -moz-box-shadow: -1px -1px 6px 0px rgba(163,163,163,1);
-box-shadow: -1px -1px 6px 0px rgba(163,163,163,1);background-color:white;width:275px;height:620px;margin-top:50px;float:right;margin-right:8vw; ">
+box-shadow: -1px -1px 6px 0px rgba(163,163,163,1);background-color:white;width:275px;height:620px;margin-top:50px;margin-left:2vw;margin-right:4vw; float: right;">
     <div class="card-body text-center">
       <h4 class="card-title">Notice Board</h4>
     </div>
@@ -553,6 +553,10 @@ while ($item = mysqli_fetch_array($query1))
 
  </div>
 
+</div>
+
+
+
 
 
 
@@ -565,19 +569,19 @@ while ($item = mysqli_fetch_array($query1))
     <h4 class="card-title">Trustee's Message</h4>
     <p class="card-text" style="font-weight: 200; font-family: 'Lato';color: gray;">I am glad that you have a taken the right decision of admitting your child in MPS- smart choice indeed.The school aims at imparting knowledge that would be relevant in life always for the student. It adopts a blend of both- contemporary and traditional outlook to create a positive atmosphere of learning for your child.
 </p>
-    <a href="https://secureito.com/Trusteemessage.html" class="btn btn-primary">Read More</a>
+    <a href="https://secureito.com/Trusteemessage.php" class="btn btn-primary">Read More</a>
   </div>
 </div>
 
   
 
   <div class="card" style="border:none;width:280px;height:620px;margin: auto; margin-bottom: 50px;">
-  <img class="card-img-top" src="https://jvbi.ac.in/images/pages/teachers/img2.jpg" style="width:280px;height:200px;" alt="Card image">
+  <img class="card-img-top" src="https://secureito.com/i_images/patron.jpg" style="width:280px;height:200px;" alt="Card image">
   <div class="card-body">
     <h4 class="card-title">Patron's Message</h4>
     <p class="card-text" style="font-weight: 200; font-family: 'Lato';color: gray;">Mahapragya Public School (MPS) is the best co-educational English medium School in Mumbai, which admits children of all caste, community, religion and race without any distinction.Mahapragya Public School (MPS) is the best co-educational English medium School in Mumbai, which admits children of all caste, community, religion and race 
 </p>
-    <a href="https://secureito.com/patronmessage.html" class="btn btn-primary">Read More</a>
+    <a href="https://secureito.com/patronmessage.php" class="btn btn-primary">Read More</a>
   </div>
 </div>
 
@@ -587,7 +591,7 @@ while ($item = mysqli_fetch_array($query1))
   <div class="card-body">
     <h4 class="card-title">Principal Message</h4>
     <p class="card-text" style="font-weight: 200; font-family: 'Lato';color: gray;">Mahapragya Public School (MPS) is the best co-educational English medium School in Mumbai, which admits children of all caste, community, religion and race without any distinction.Mahapragya Public School (MPS) is the best co-educational English medium School in Mumbai, which admits children of all caste, community, religion and race without any</p>
-    <a href="https://secureito.com/principalmessage.html" class="btn btn-primary">Read more</a>
+    <a href="https://secureito.com/principalmessage.php" class="btn btn-primary">Read more</a>
   </div>
 </div>
 
@@ -622,7 +626,6 @@ while ($item = mysqli_fetch_array($query2))
 
  </div>
 
-
  <hr style="width: 10%;height: 0.5px;background-color: gray;">
 
 <div>
@@ -632,7 +635,7 @@ while ($item = mysqli_fetch_array($query2))
 <h5 class="card-title" style="text-align: center;">      <i class="fa fa-calendar" style="text-align: center;font-size: 50px;margin-top: 20px;" aria-hidden="true"></i>
 Friday Clubs</h5>
       <p class="card-text">Learn all about the extra curricular activities students can participate in through school clubs.</p>
-      <a href="https://secureito.com/facalities.html">Read More|</a>
+      <a href="https://secureito.com/facalities.php">Read More|</a>
     </div>
   </div>
   <div class="card">
@@ -640,21 +643,21 @@ Friday Clubs</h5>
       <h5 class="card-title" style="text-align: center;"><i class="fa fa-graduation-cap" style="text-align: center;font-size: 50px;margin-top: 20px;" aria-hidden="true"></i>Academics</h5>
       <p class="card-text">
 The school prides itself on its academic rigour, flexibility, and student-centric approach. CBSE allows the child to grow into a wholesome, skilled, competent individual</p>
-      <a href="https://secureito.com/cirriculum.html">Read More|</a>
+      <a href="https://secureito.com/cirriculum.php">Read More|</a>
     </div>
   </div>
   <div class="card">
     <div class="card-body">
       <h5 class="card-title" style="text-align: center;"><i class="fa fa-flask" style="text-align: center;font-size: 50px;margin-top: 20px;" aria-hidden="true"></i>Innovations</h5>
       <p class="card-text">The school is a buzzing laboratory of experimentation at all levels. Our innovations are born out of our needs and shaped by our passion for embracing change</p>
-      <a href="https://secureito.com/facalities.html">Read More|</a>
+      <a href="https://secureito.com/facalities.php">Read More|</a>
     </div>
   </div>
   <div class="card">
     <div class="card-body">
       <h5 class="card-title" style="text-align: center;"><i class="fa fa-question" style="text-align: center;font-size: 50px;margin-top: 20px;" aria-hidden="true"></i>Admission Faqs</h5>
       <p class="card-text">Have a question about admissions to MahaPragya Public School? Our FAQs section has all the answers and more to all your queries.</p>
-        <a href="https://secureito.com/faq.html">Read More|</a>
+        <a href="https://secureito.com/faq.php">Read More|</a>
     </div>
   </div>
 </div>
@@ -859,10 +862,10 @@ $('.owl-carousel').owlCarousel({
           <h4>Links</h4>
           <ul class="list-unstyled">
             <li><a href="#"></a></li>
-            <li><a href="https://secureito.com/rules.html">Rules And Regulations</a></li>
-            <li><a href="https://secureito.com/Trusteemessage.html">Trustee's Message</a></li>
-            <li><a href="https://secureito.com/principalmessage.html">Principal Message</a></li>
-            <li><a href="https://secureito.com/facalities.html">Facilities</a></li>
+            <li><a href="https://secureito.com/rules.php">Rules And Regulations</a></li>
+            <li><a href="https://secureito.com/Trusteemessage.php">Trustee's Message</a></li>
+            <li><a href="https://secureito.com/principalmessage.php">Principal Message</a></li>
+            <li><a href="https://secureito.com/facalities.php">Facilities</a></li>
                      </ul>
         </div>
       </div>
@@ -871,10 +874,10 @@ $('.owl-carousel').owlCarousel({
         <div class="footer-pad">
           <h4>Resources</h4>
           <ul class="list-unstyled">
-            <li><a href="https://secureito.com/faq.html">FAQS</a></li>
-            <li><a href="https://secureito.com/faq.html">ADMISSION FAQS</a></li>
-            <li><a href="https://secureito.com/gallery.html">GALLERY</a></li>
-            <li><a href="https://secureito.com/facalities.html">Friday Clubs</a></li>
+            <li><a href="https://secureito.com/faq.php">FAQS</a></li>
+            <li><a href="https://secureito.com/faq.php">ADMISSION FAQS</a></li>
+            <li><a href="https://secureito.com/gallery.php">GALLERY</a></li>
+            <li><a href="https://secureito.com/facalities.php">Friday Clubs</a></li>
           </ul>
         </div>
       </div>
