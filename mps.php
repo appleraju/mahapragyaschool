@@ -37,7 +37,20 @@ $query2 = mysqli_query($conn, "SELECT * FROM noticeboard");
       <script type="text/javascript" src="https://owlcarousel2.github.io/OwlCarousel2/assets/vendors/jquery.min.js"></script>
       <script type="text/javascript" src="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.js"></script>
 
+  margin-right: 35px;
 
+.dropdown-toggle::after {
+   transition: transform 0.15s linear; 
+}
+
+.show.dropdown .dropdown-toggle::after {
+  transform: translateY(3px);
+}
+
+.dropdown-menu {
+  margin-top: 0;
+}
+</style>
 
   <style id="compiled-css" type="text/css">
       .owl-carousel .item {
@@ -315,65 +328,31 @@ padding-top: 5px;
     <script type="text/javascript">
 
 
-(function($) {
-  $.fn.menumaker = function(options) {
-    var cssmenu = $(this),
-      settings = $.extend({
-        format: "dropdown",
-        sticky: false
-      }, options);
-    return this.each(function() {
-      $(this).find(".button").on('click', function() {
-        $(this).toggleClass('menu-opened');
-        var mainmenu = $(this).next('ul');
-        if (mainmenu.hasClass('open')) {
-          mainmenu.slideToggle().removeClass('open');
-        } else {
-          mainmenu.slideToggle().addClass('open');
-          if (settings.format === "dropdown") {
-            mainmenu.find('ul').show();
-          }
-        }
-      });
-      cssmenu.find('li ul').parent().addClass('has-sub');
-      multiTg = function() {
-        cssmenu.find(".has-sub").prepend('<span class="submenu-button"></span>');
-        cssmenu.find('.submenu-button').on('click', function() {
-          $(this).toggleClass('submenu-opened');
-          if ($(this).siblings('ul').hasClass('open')) {
-            $(this).siblings('ul').removeClass('open').slideToggle();
-          } else {
-            $(this).siblings('ul').addClass('open').slideToggle();
-          }
-        });
-      };
-      if (settings.format === 'multitoggle') multiTg();
-      else cssmenu.addClass('dropdown');
-      if (settings.sticky === true) cssmenu.css('position', 'fixed');
-      resizeFix = function() {
-        var mediasize = 700;
-        if ($(window).width() > mediasize) {
-          cssmenu.find('ul').show();
-        }
-        if ($(window).width() <= mediasize) {
-          cssmenu.find('ul').hide().removeClass('open');
-        }
-      };
-      resizeFix();
-      return $(window).on('resize', resizeFix);
-    });
-  };
-})(jQuery);
+const $dropdown = $(".dropdown");
+const $dropdownToggle = $(".dropdown-toggle");
+const $dropdownMenu = $(".dropdown-menu");
+const showClass = "show";
 
-(function($) {
-  $(document).ready(function() {
-    $("#cssmenu").menumaker({
-      format: "multitoggle"
-    });
-  });
-})(jQuery);
-
-
+$(window).on("load resize", function() {
+  if (this.matchMedia("(min-width: 768px)").matches) {
+    $dropdown.hover(
+      function() {
+        const $this = $(this);
+        $this.addClass(showClass);
+        $this.find($dropdownToggle).attr("aria-expanded", "true");
+        $this.find($dropdownMenu).addClass(showClass);
+      },
+      function() {
+        const $this = $(this);
+        $this.removeClass(showClass);
+        $this.find($dropdownToggle).attr("aria-expanded", "false");
+        $this.find($dropdownMenu).removeClass(showClass);
+      }
+    );
+  } else {
+    $dropdown.off("mouseenter mouseleave");
+  }
+});
 
   //]]></script>
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
