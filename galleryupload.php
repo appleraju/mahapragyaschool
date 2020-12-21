@@ -325,22 +325,22 @@ padding-top: 5px;
  
   </div>
 </nav>
-<div class="container" style="margin-top: 200px;">
+<div class="container" style="margin-top: 100px;">
 <div class="form-box form" style="margin-top: 50px;margin-left: 10vw;background-color: #f2f2f2;">
   <h1 style="text-align: center;">Add Gallery</h1>
   <p style="text-align: center;">Fill in all the details</p>
-<form action="addedtitle.php" method="post" enctype="multipart/form-data">
+<form  style="margin:20px;"action="addedtitle.php" method="post" enctype="multipart/form-data">
   <div  class="form-group">
-    <label for="title" style="font-size: 20px; font-weight: normal;margin-bottom: 10px;text-align: left">Create a New Title</label>
-      <input class="form-control" id="title" type="text" name="title" placeholder="Enter Title">
+    <label for="title" style="font-size: 20px; font-weight: bold;margin-bottom: 10px;text-align: left">Create a New Title</label>
+      <input class="form-control" id="title" type="text" name="title" placeholder="Enter Title like Happy Holi" required>
 
       <br>
-    <label for="title" style="font-size: 20px; font-weight: normal;margin-bottom: 10px;text-align: left">
+    <label for="title" style="font-size: 20px; font-weight: bold;margin-bottom: 10px;text-align: left" required>
   Select 1 thumbnail picture</label>
   <br>
     <input type="file" name="files[]" multiple >    
 </div>
-<input type="submit" name="submit" value="go to add images">
+<input class="btn btn-primary" type="submit" name="submit" value="Go to add images">
 </form>
 </div>
 </div>

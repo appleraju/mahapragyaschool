@@ -325,15 +325,20 @@ padding-top: 5px;
  
   </div>
 </nav>
-<div class="container" style="margin-top: 200px;">
+<div class="container" style="margin-top: 100px;">
 <div class="form-box form" style="margin-top: 50px;margin-left: 10vw;background-color: #f2f2f2;">
   <h1 style="text-align: center;">Upload Notice Document</h1>
   <p style="text-align: center;">Fill in all the details</p>
- <form action="uploadedfiles.php" method="post" enctype="multipart/form-data">
-    Select File to Upload:
-    <input type="file" name="file">
+ <form style="margin:20px;" action="uploadedfiles.php" method="post" enctype="multipart/form-data">
+  <font style="font-weight:bold">Select File to Upload</font>(pdf format only):
+  <hr>
+    <input type="file" name="file" required>
     <br>
-    <input type="submit" name="submit" value="Upload">
+    *remember file name
+    <br>
+    <br>
+    <input class="btn btn-primary" style="margin-bottom: :20px;"type="submit" name="submit" value="Upload">
+ 
 </form>
 </div>
 </div>

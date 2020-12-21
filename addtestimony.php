@@ -325,26 +325,27 @@ padding-top: 5px;
  
   </div>
 </nav>
-<div class="container" style="margin-top: 200px;">
+<div class="container" style="margin-top: 100px;">
 <div class="form-box form" style="margin-top: 50px;margin-left: 10vw;background-color: #f2f2f2;">
   <h1 style="text-align: center;">Add Testimonials</h1>
   <p style="text-align: center;">Fill in all the details</p>
-  <form action="addedtestimony.php" method="POST">
+  <form style="margin:20px;"action="addedtestimony.php" method="POST">
     <div class="form-group">
-      <label for="tname" style="font-size: 20px; font-weight: normal;margin-bottom: 10px;text-align: left">Teacher Name</label>
-      <input class="form-control" id="tname" type="text" name="tname" placeholder="Enter Name">
-      <label for="tpos" style="font-size: 20px; font-weight: normal;margin-bottom: 10px;text-align: left!important" >Position</label>
-      <input class="form-control" id="tpos" type="text" name="tpos" placeholder="Enter Position" >
-       <label for="tmessage" style="font-size: 20px; font-weight: normal;margin-bottom: 10px;text-align: left!important" >Message</label>
-      <input class="form-control" id="tmessage" type="text" name="tmessage" placeholder="Enter message" >
+      <label for="tname" style="font-size: 20px; font-weight: bold;margin-bottom: 10px;text-align: left">Teacher Name</label>
+      <input class="form-control" id="tname" type="text" name="tname" placeholder="Enter Name" required>
+      <label for="tpos" style="font-size: 20px; font-weight: bold;margin-bottom: 10px;text-align: left!important" >Position</label>
+      <input class="form-control" id="tpos" type="text" name="tpos" placeholder="Enter Position" required>
+       <label for="tmessage" style="font-size: 20px; font-weight: bold;margin-bottom: 10px;text-align: left!important" >Message</label>
+      <input class="form-control" id="tmessage" type="text" name="tmessage" placeholder="Enter message" required>
     </div>
+    <hr>
         <div class="form-group">
-      <label for="sname" style="font-size: 20px; font-weight: normal;margin-bottom: 10px;text-align: left">Student Name</label>
-      <input class="form-control" id="sname" type="text" name="sname" placeholder="Enter Name">
-      <label for="spos" style="font-size: 20px; font-weight: normal;margin-bottom: 10px;text-align: left!important" >Class</label>
-      <input class="form-control" id="sclass" type="text" name="sclass" placeholder="Enter class" >
-       <label for="smessage" style="font-size: 20px; font-weight: normal;margin-bottom: 10px;text-align: left!important" >Message</label>
-      <input class="form-control" id="smessage" type="text" name="smessage" placeholder="Enter message" >
+      <label for="sname" style="font-size: 20px; font-weight: bold;margin-bottom: 10px;text-align: left">Student Name</label>
+      <input class="form-control" id="sname" type="text" name="sname" placeholder="Enter Name"required>
+      <label for="spos" style="font-size: 20px; font-weight: bold;margin-bottom: 10px;text-align: left!important" >Class</label>
+      <input class="form-control" id="sclass" type="text" name="sclass" placeholder="Enter class" required>
+       <label for="smessage" style="font-size: 20px; font-weight: bold;margin-bottom: 10px;text-align: left!important" >Message</label>
+      <input class="form-control" id="smessage" type="text" name="smessage" placeholder="Enter message"  required>
     </div>
 
 

@@ -4,7 +4,7 @@ include "Connection.php"; // Using database connection file here
 
 $id = $_GET['id'];
  // get id through query string
-$del = mysqli_query($conn,"Delete from gallerytitle where id ='$id' ON DELETE CASCADE  "); // delete query
+$del = mysqli_query($conn,"Delete from gallerytitle where id ='$id' "); // delete query
 
 if($del)
 {

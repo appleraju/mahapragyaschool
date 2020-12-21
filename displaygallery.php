@@ -389,7 +389,7 @@ vertical-align: middle;
 margin-right: 6px;
 padding-top: 5px; 
 "></i>
-    <font style="font-size:1vw;float: right;font-family: lato;font-weight: 100;font-color:#000000">Affiliated to CBSE<br>  <span> Affiliation No. 1130253</span><br><span>School Code â€“ 30215</span>
+    <font style="font-size:1vw;float: right;font-family: lato;font-weight: 100;font-color:#000000">Affiliated to CBSE<br>  <span> Affiliation No. 1130253</span><br><span>School Code - 30215</span>
   </font>
   </p>
  
@@ -542,7 +542,7 @@ padding-top: 5px;
 $types = array();
 
 echo'<div>';
-echo'<div class="container gallery-container" style="margin-top: 50px;">';
+echo'<div class="container gallery-container" style="margin-top: 20px;">';
 
 while ($item1 = mysqli_fetch_array($query1))
 {
@@ -573,6 +573,7 @@ if($query2->num_rows > 0){
 
 </div>
 </div>
+<button type="button" style="margin: auto;" class="btn btn-primary btn-lg d-flex justify-content-center"><a href="gallery.php"><font style="color: white;">Back To Gallery</font></a></button>
 
 </div>
 </div>

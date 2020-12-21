@@ -36,7 +36,16 @@ $query1 = mysqli_query($conn, "SELECT * FROM testimonial");
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-
+ <style>
+    table {
+  display: block;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  margin: 0 auto;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+  </style>
 
 
 
@@ -325,7 +334,7 @@ padding-top: 5px;
  
   </div>
 </nav>
-    <div style="margin-top: 200px;">
+    <div style="margin-top: 50px;">
     </div>
 <?php
     echo '<div class="container" style="padding-top: 30px;">
@@ -334,7 +343,7 @@ padding-top: 5px;
      <tr>
 
                         <th>Teacher Name</th>
-                        <th>position</th>
+                        <th>Position</th>
                         <th>Message</th>
                         <th>Student Name</th>
                         <th>class</th>

@@ -334,8 +334,8 @@ padding-top: 5px;
   </div>
 </nav>
 
-<div style="margin: auto;
-  width: 20%;margin-top: 100px;">
+<div class="d-flex justify-content-center" style="margin: auto;
+;margin-top: 100px;">
     <i class="fa fa-check-circle" style="font-size: 150px;color: green;text-align: center;line-height: 1" aria-hidden="true"><br><font style="font-size:40px;font-weight: bold">Details Received</font><br><font style="font-size:20px;font-weight: lighter;color: gray;">We will contact you soon!</font>
     </i>  
    </div>

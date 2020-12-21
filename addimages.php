@@ -328,11 +328,11 @@ padding-top: 5px;
   </div>
 </nav>
 
-<div class="container" style="margin-top: 200px;">
+<div class="container" style="margin-top: 100px;">
 <div class="form-box form" style="margin-top: 50px;margin-left: 10vw;background-color: #f2f2f2;">
   <h1 style="text-align: center;">Add Images</h1>
   <p style="text-align: center;">Fill in all the details</p>
-    <form action="doneimages.php" method="post" enctype="multipart/form-data">
+    <form style="margin:20px;"action="doneimages.php" method="post" enctype="multipart/form-data">
   <div  class="form-group">
     <label for="title" style="font-size: 20px; font-weight: bold;margin-bottom: 10px;text-align: left">Where to upload image:</label>
 <?php
@@ -358,12 +358,12 @@ echo '</select>';
 	<label for="file" style="font-size: 20px; font-weight: bold;margin-bottom: 10px;text-align: left">
   Select Single Image Files to Upload:</label>
   <br>
-    <input type="file" name="files[]" multiple >    
+    <input type="file" name="files[]" multiple required>    
 </div>
 
     <br>
     <br>
-<input type="submit" name="submit" value="Upload">
+<input class="btn btn-primary" type="submit" name="submit" value="Upload">
 </form>
 </div>
 </div>

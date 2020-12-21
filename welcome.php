@@ -168,7 +168,16 @@ $query1 = mysqli_query($conn, "SELECT * FROM enquiry
         background-color: #F9F9F9;
     }
     </style>
-  
+  <style>
+    table {
+  display: block;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  margin: 0 auto;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+  </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
@@ -326,36 +335,36 @@ padding-top: 5px;
  
   </div>
 </nav>
-    <div style="margin-top: 200px;">
+    <div style="margin-top: 50px;">
     </div>
 <?php
     echo '<div class="container table" style="padding-top: 30px;">
-                <table border="1" class="table">
+                <table border="1" class="table" >
   <tr>  <th colspan="10" style="text-align: center;">ENQUIRY TABLE</th>           </tr>
      <tr>
-                       <th>Sr No.</th>
-                        <th>Parent\'s Name</th>
-                        <th>Student\'s Name</th>
-                        <th>Age</th>
-                        <th>Standard</th>
-                        <th>Email ID</th>
-                        <th>Phone Number</th>
-                        <th>Message</th>
-                        <th>Date</th>
-                         <th>Action</th>
+                       <th >Sr No.</th>
+                        <th >Parent\'s Name</th>
+                        <th >Student\'s Name</th>
+                        <th >Age</th>
+                        <th  >Standard</th>
+                        <th >Email ID</th>
+                        <th >Phone Number</th>
+                        <th >Message</th>
+                        <th >Date</th>
+                         <th =>Action</th>
                     </tr>';
 $types = array();
 while ($item = mysqli_fetch_array($query1))
 {
-    echo '<tr>';
+    echo '<tr >';
     echo '<td>' . $item['id'] . '</td>';
 
     echo '<td>' . $item['pname'] . '</td>';
     echo '<td>' . $item['sname'] . '</td>';
     echo '<td>' . $item['age'] . '</td>';
     echo '<td>' . $item['standard'] . '</td>';
-    echo '<td>' . $item['email'] . '</td>';
-     echo '<td>' . $item['phone'] . '</td>';
+    echo '<td><a href="mailto:'. $item['email'] .'">' . $item['email'] . '</a></td>';
+     echo '<td><a href="tel:'. $item['phone'] .'">' . $item['phone'] . '</a></td>';
     echo '<td>' . $item['message'] . '</td>';
         echo '<td>' . $item['date'] . '</td>';
       echo '<td><a href="deleteform.php?id='.$item['id'].'">Delete</a></td>';

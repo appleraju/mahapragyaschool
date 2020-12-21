@@ -41,7 +41,6 @@ $query1 = mysqli_query($conn, "SELECT * FROM gallerytitle
 
 
 
-
     <style id="compiled-css" type="text/css">
     .owl-carousel .item {
 
@@ -326,7 +325,7 @@ padding-top: 5px;
  
   </div>
 </nav>
-    <div style="margin-top: 200px;">
+    <div style="margin-top: 50px;">
     </div>
 <?php
     echo '<div class="container" style="padding-top: 30px;">
@@ -334,8 +333,8 @@ padding-top: 5px;
   <tr>  <th colspan="3" style="text-align: center;">Gallery TABLE</th>           </tr>
      <tr>
                        <th>Sr No.</th>
-                        <th>title</th>
-                        <th>action</th>
+                        <th>Title</th>
+                        <th>Action</th>
                         
                        
                     </tr>';

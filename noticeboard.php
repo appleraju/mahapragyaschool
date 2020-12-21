@@ -167,7 +167,7 @@ $query1 = mysqli_query($conn, "SELECT * FROM noticeboard");
         background-color: #F9F9F9;
     }
     </style>
-  
+ 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
@@ -349,7 +349,7 @@ while ($item = mysqli_fetch_array($query1))
 
     echo '<td><a  href="uploadedfiles/'.$item['link'].'">'.$item['link'].'</a></td>';
     echo '<td><a href="deletenotice.php?title='.$item['title'].'">Delete</a></td>';
-    echo '<td><a href="addnotice.php">add</a></td>';
+    echo '<td><a href="addfiles.php">add</a></td>';
 
     echo '</tr>';
 }

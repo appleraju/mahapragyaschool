@@ -325,16 +325,16 @@ padding-top: 5px;
  
   </div>
 </nav>
-<div class="container" style="margin-top: 200px;">
+<div class="container" style="margin-top: 100px;">
 <div class="form-box form" style="margin-top: 50px;margin-left: 10vw;background-color: #f2f2f2;">
   <h1 style="text-align: center;">Add new notice</h1>
   <p style="text-align: center;">Fill in all the details</p>
-  <form action="addednotice.php" method="POST">
+  <form style="margin:20px;"action="addednotice.php" method="POST">
     <div class="form-group">
-      <label for="title" style="font-size: 20px; font-weight: normal;margin-bottom: 10px;text-align: left">Title</label>
-      <input class="form-control" id="title" type="text" name="title" placeholder="Enter Title">
-      <label for="link" style="font-size: 20px; font-weight: normal;margin-bottom: 10px;text-align: left!important" >file name</label>
-      <input class="form-control" id="link" type="text" name="link" placeholder="Enter exact file name as uploaded" >
+      <label for="title" style="font-size: 20px; font-weight: bold;margin-bottom: 10px;text-align: left">Title</label>
+      <input class="form-control" id="title" type="text" name="title" placeholder="Enter notice Title" required>
+      <label for="link" style="font-size: 20px; font-weight: bold;margin-bottom: 10px;text-align: left!important" >File name</label>
+      <input class="form-control" id="link" type="text" name="link" placeholder="Enter exact file name as uploaded like results.pdf" required>
     </div>
 
          <button type="submit" class="btn btn-primary" name="submit">Submit</button>

@@ -272,7 +272,7 @@ vertical-align: middle;
 margin-right: 6px;
 padding-top: 5px; 
 "></i>
-    <font style="font-size:1vw;float: right;font-family: lato;font-weight: 100;font-color:#000000">Affiliated to CBSE<br>  <span> Affiliation No. 1130253</span><br><span>School Code :30215</span>
+    <font style="font-size:1vw;float: right;font-family: lato;font-weight: 100;font-color:#000000">Affiliated to CBSE<br>  <span> Affiliation No. 1130253</span><br><span>School Code - 30215</span>
   </font>
   </p>
  
@@ -420,14 +420,14 @@ padding-top: 5px;
 </nav>
     <div >
 
-    <div class="form" style="margin:auto;margin-top: 10px;margin-left: 40%">
+    <div class="form"  style="margin:auto;margin-top: 10px;">
 
 
 
 
 
      <div>    
-<div class="container" style="right:20%;position:relative;width:80%;margin-top: 100px;">
+<div class="container d-flex justify-content-center" style="margin-top: 50px;">
 <div  style="width:100%;">
   <h1 style="text-align: center;">Login</h1>
   <p style="text-align: center;">Fill in all the details</p>
