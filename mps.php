@@ -363,7 +363,7 @@ $(window).on("load resize", function() {
     </ol>
     <div class="carousel-inner" role="listbox">
       <!-- Slide One - Set the background image for this slide in the line below -->
-      <div class="carousel-item active" style="background-image: url('i_images/2.jpg ')">
+      <div class="carousel-item active" style="background-image: url('i_images/11.jpg ')">
         <div class="carousel-caption d-none d-md-block">
           
         </div>

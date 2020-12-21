@@ -1,4 +1,15 @@
+<?php
+// Initialize the session
+session_start();
 
+require 'Connection.php';
+$query1 = mysqli_query($conn, "SELECT * FROM testimonial
+                               ORDER BY RAND()
+                                LIMIT 1");
+
+
+
+?>
 
 <html>
 <head>
