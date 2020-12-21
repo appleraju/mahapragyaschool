@@ -327,10 +327,12 @@ padding-top: 5px;
 </nav>
 
 
-    <div style="margin-top: 100px;">
+    <div style="margin-top: 50px;">
+
     </div>
 <?php
     echo '<div class="container" style="padding-top: 30px;">
+  <button type="button" style="margin-bottom:10px;" class="btn btn-primary btn-lg d-flex justify-content-end"><a href="addfiles.php"><font style="color: white;">Add New Notice</font></a></button>
                 <table border="1" class="table table-striped table-bordered table-hover">
   <tr>  <th colspan="4" style="text-align: center;">Notice Board</th>           </tr>
      <tr>
@@ -338,7 +340,7 @@ padding-top: 5px;
                         <th>title</th>
                         <th>link</th>
                         <th>Action</th>
-                        <th>Action</th>
+                   
 
                     </tr>';
 $types = array();
@@ -349,7 +351,7 @@ while ($item = mysqli_fetch_array($query1))
 
     echo '<td><a  href="uploadedfiles/'.$item['link'].'">'.$item['link'].'</a></td>';
     echo '<td><a href="deletenotice.php?title='.$item['title'].'">Delete</a></td>';
-    echo '<td><a href="addfiles.php">add</a></td>';
+   
 
     echo '</tr>';
 }

@@ -329,7 +329,9 @@ padding-top: 5px;
     </div>
 <?php
     echo '<div class="container" style="padding-top: 30px;">
-                <table border="1" class="table table-striped table-bordered table-hover">
+           
+            <button type="button" style="margin-bottom:10px;" class="btn btn-primary btn justify-content-end"><a href="galleryupload.php"><font style="color: white;">Add New Title</font></a></button>
+             <button type="button" style="margin-bottom:10px;" class="btn btn-primary btn  justify-content-start"><a href="addimages.php"><font style="color: white;">Update Images</font></a></button>     <table border="1" class="table table-striped table-bordered table-hover">
   <tr>  <th colspan="3" style="text-align: center;">Gallery TABLE</th>           </tr>
      <tr>
                        <th>Sr No.</th>

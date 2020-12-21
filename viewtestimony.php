@@ -338,6 +338,7 @@ padding-top: 5px;
     </div>
 <?php
     echo '<div class="container" style="padding-top: 30px;">
+               <button type="button" style="margin-bottom:10px;" class="btn btn-primary btn-lg d-flex justify-content-end"><a href="addtestimony.php"><font style="color: white;">Add New Testimony</font></a></button> 
                 <table border="1" class="table table-striped table-bordered table-hover">
   <tr>  <th colspan="8" style="text-align: center;">Testimonials</th>           </tr>
      <tr>
