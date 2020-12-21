@@ -37,7 +37,10 @@ $query2 = mysqli_query($conn, "SELECT * FROM noticeboard");
       <script type="text/javascript" src="https://owlcarousel2.github.io/OwlCarousel2/assets/vendors/jquery.min.js"></script>
       <script type="text/javascript" src="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.js"></script>
 
+<style>
+.navbar .nav-item:not(:last-child) {
   margin-right: 35px;
+}
 
 .dropdown-toggle::after {
    transition: transform 0.15s linear; 
